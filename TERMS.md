@@ -3,8 +3,8 @@
   
 **TERMS OF USE**  
   
-**FOR MYSTERIUM NODES**  
-  
+**FOR MYSTERIUM NODES**
+
 SHORT VERSION IN HUMAN LANGUAGE:  
   
 * Mysterium Platform and Mysterium Software is still in its development (alpha) stage. We will do our best to develop it further, but we cannot guarantee this.  
@@ -134,5 +134,5 @@ No waiver by either party of any breach or default hereunder shall be deemed to 
   
 You agree that these Terms and our rights hereunder may be assigned, in whole or in part, by us or our affiliate to any third party, at our sole discretion, including an assignment in connection with a merger, acquisition, reorganization or sale of substantially all of our assets, or otherwise, in whole or in part. You may not delegate, sublicense or assign your rights under these Terms.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NjY4MDY5MV19
+eyJoaXN0b3J5IjpbMjA4NzE5OTYwMywxMTg2NjgwNjkxXX0=
 -->
