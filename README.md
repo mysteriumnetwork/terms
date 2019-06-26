@@ -4,12 +4,12 @@ Provides terms and conditions for embedding into various platforms:
 - `TERMS.md`
 - `WARRANTY.md`
 
-## Go
-
-Regenerate after updating markdown sources:
+Regenerate after updating markdown sources (for all targets):
 ```bash
-go run mage.go -d terms-go generate
+go run mage.go generate
 ```
+
+## Go
 
 Usage:
 ```go

@@ -93,7 +93,7 @@ func termsMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "TERMS.md", size: 16162, mode: os.FileMode(420), modTime: time.Unix(1561466793, 0)}
+	info := bindataFileInfo{name: "TERMS.md", size: 16162, mode: os.FileMode(420), modTime: time.Unix(1561549358, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -113,7 +113,7 @@ func warrantyMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "WARRANTY.md", size: 549, mode: os.FileMode(420), modTime: time.Unix(1561538328, 0)}
+	info := bindataFileInfo{name: "WARRANTY.md", size: 549, mode: os.FileMode(420), modTime: time.Unix(1561552142, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }

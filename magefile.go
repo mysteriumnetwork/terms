@@ -20,10 +20,19 @@
 package main
 
 import (
+	"github.com/magefile/mage/mg"
 	"github.com/magefile/mage/sh"
 )
 
-// Generate generates an updated assets_vfsdata.go file
+// Generate generates packages for all language targets
 func Generate() error {
-	return sh.RunV("go", "generate")
+	mg.SerialDeps(
+		GenerateGo,
+	)
+	return nil
+}
+
+// Generate embeds terms into `terms-go/terms-bindata.go`
+func GenerateGo() error {
+	return sh.RunV("go", "generate", "./...")
 }
