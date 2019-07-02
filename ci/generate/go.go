@@ -1,7 +1,5 @@
-// +build mage
-
 /*
- * Copyright (C) 2019 The "MysteriumNetwork/node" Authors.
+ * Copyright (C) 2019 The "MysteriumNetwork/terms" Authors.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,9 +15,13 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package main
+package generate
 
 import (
-	// mage:import
-	_ "github.com/mysteriumnetwork/terms/ci/generate"
+	"github.com/magefile/mage/sh"
 )
+
+// GenerateGo embeds terms into `terms-go/terms-bindata.go`
+func GenerateGo() error {
+	return sh.RunV("go", "generate", "./...")
+}
