@@ -1,0 +1,9 @@
+{
+  "name": "mysterium-terms",
+  "version": "{{.BuildVersion}}",
+  "description": "Terms of use for Mysterium nodes",
+  "main": "index.js",
+  "repository": "https://github.com/mysteriumnetwork/terms",
+  "author": "Mysterium Network",
+  "license": "GPL-3.0"
+}

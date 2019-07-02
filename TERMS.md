@@ -1,4 +1,3 @@
-
 **MYSTERIUM NETWORK OPEN ALPHA**  
   
 **TERMS OF USE**  

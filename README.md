@@ -26,3 +26,13 @@ func main()  {
 	fmt.Println(string(terms.TermsMdBytes))
 }
 ```
+
+## Javascript
+
+Usage:
+```js
+import {TermsMd, WarrantyMd} from 'terms-js'
+
+console.log(TermsMd)
+console.log(WarrantyMd)
+```
