@@ -298,10 +298,11 @@
   input-imports = [
     "github.com/go-bindata/go-bindata",
     "github.com/magefile/mage/mage",
-    "github.com/magefile/mage/mg",
     "github.com/magefile/mage/sh",
     "github.com/mysteriumnetwork/go-ci/env",
     "github.com/mysteriumnetwork/go-ci/git",
+    "github.com/mysteriumnetwork/go-ci/github",
+    "github.com/pkg/errors",
   ]
   solver-name = "gps-cdcl"
   solver-version = 1

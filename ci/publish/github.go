@@ -7,46 +7,48 @@ import (
 	"github.com/mysteriumnetwork/go-ci/env"
 	cigit "github.com/mysteriumnetwork/go-ci/git"
 	"github.com/mysteriumnetwork/go-ci/github"
+	"github.com/pkg/errors"
 )
-
-func must(err error) {
-	if err != nil {
-		panic(err)
-	}
-}
 
 // Publish commits & pushes changes
 func Publish() error {
-	must(env.EnsureEnvVars(env.GithubAPIToken))
+	err := env.EnsureEnvVars(env.GithubAPIToken)
+	if err != nil {
+		return err
+	}
+
 	git := cigit.NewCommiter(env.Str(env.GithubAPIToken))
 
-	_, err := git.Commit("Updating terms packages",
+	_, err = git.Commit("Updating terms packages",
 		"terms-go/terms_bindata.go",
 		"terms-js/package.json",
 		"terms-js/index.js",
 	)
 	if err != nil {
-		return err
+		return errors.Wrap(err, "could not commit generated files")
 	}
-	must(git.Push(&cigit.PushOptions{
+	err = git.Push(&cigit.PushOptions{
 		Remote: "upstream",
-	}))
+	})
+	if err != nil {
+		return errors.Wrap(err, "could not push to upstream")
+	}
 	releaser, err := github.NewReleaser(env.Str(env.GithubOwner), env.Str(env.GithubRepository), env.Str(env.GithubAPIToken))
 	if err != nil {
-		return err
+		return errors.Wrap(err, "could not create github releaser")
 	}
 
 	latest, err := releaser.Latest()
 	if err != nil {
-		return err
+		return errors.Wrap(err, "could not get latest release")
 	}
 	nextTag, err := nextTag(latest.TagName)
 	if err != nil {
-		return err
+		return errors.Wrap(err, "could not calculate next tag")
 	}
 
 	if _, err := releaser.Create(nextTag); err != nil {
-		return err
+		return errors.Wrap(err, "could not create next tag")
 	}
 
 	return nil

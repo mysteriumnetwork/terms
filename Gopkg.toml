@@ -40,3 +40,7 @@
 [[constraint]]
   branch = "master"
   name = "github.com/mysteriumnetwork/go-ci"
+
+[[constraint]]
+  name = "github.com/pkg/errors"
+  version = "0.8.1"
