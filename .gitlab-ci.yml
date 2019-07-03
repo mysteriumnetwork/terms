@@ -3,6 +3,7 @@ stages:
 
 variables:
   GIT_STRATEGY: clone
+  GIT_CHECKOUT: "false"
   BUILD_COMMIT: $CI_COMMIT_SHORT_SHA
   BUILD_BRANCH: $CI_COMMIT_REF_NAME
   BUILD_BRANCH_SAFE: $CI_COMMIT_REF_SLUG
@@ -19,8 +20,7 @@ generate:
   stage: build
   tags: [go]
   before_script:
-    - git fetch --all
-    - git checkout master
+    - git checkout -B master origin/master
     - dep ensure -v
   script: go run mage.go -v ci
   only:
