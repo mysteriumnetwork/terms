@@ -19,10 +19,12 @@ variables:
 generate:
   stage: build
   tags: [go]
-  before_script:
+  script:
     - git remote add upstream https://github.com/mysteriumnetwork/terms.git
     - git checkout -B master origin/master
     - dep ensure -v
-  script: go run mage.go -v ci
+    - go run mage.go -v GenerateGo
+    - go run mage.go -v GenerateJs
+    - go run mage.go -v Publish
   only:
     - master

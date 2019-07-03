@@ -22,7 +22,8 @@ package main
 import (
 	"github.com/mysteriumnetwork/go-ci/env"
 	cigit "github.com/mysteriumnetwork/go-ci/git"
-	"github.com/mysteriumnetwork/terms/ci/generate"
+	// mage:import
+	_ "github.com/mysteriumnetwork/terms/ci/generate"
 )
 
 func must(err error) {
@@ -31,12 +32,11 @@ func must(err error) {
 	}
 }
 
-// CI generates, commits, releases & pushes updated terms
-func CI() error {
+// Publish commits & pushes changes
+func Publish() error {
 	must(env.EnsureEnvVars(env.GithubAPIToken))
 	git := cigit.NewCommiter(env.Str(env.GithubAPIToken))
-	must(git.Checkout("master"))
-	must(generate.Generate())
+
 	_, err := git.Commit("Updating terms packages",
 		"terms-go/terms_bindata.go",
 		"terms-js/package.json",
