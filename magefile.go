@@ -20,33 +20,8 @@
 package main
 
 import (
-	"github.com/mysteriumnetwork/go-ci/env"
-	cigit "github.com/mysteriumnetwork/go-ci/git"
 	// mage:import
 	_ "github.com/mysteriumnetwork/terms/ci/generate"
+	// mage:import
+	_ "github.com/mysteriumnetwork/terms/ci/publish"
 )
-
-func must(err error) {
-	if err != nil {
-		panic(err)
-	}
-}
-
-// Publish commits & pushes changes
-func Publish() error {
-	must(env.EnsureEnvVars(env.GithubAPIToken))
-	git := cigit.NewCommiter(env.Str(env.GithubAPIToken))
-
-	_, err := git.Commit("Updating terms packages",
-		"terms-go/terms_bindata.go",
-		"terms-js/package.json",
-		"terms-js/index.js",
-	)
-	if err != nil {
-		return err
-	}
-	must(git.Push(&cigit.PushOptions{
-		Remote: "upstream",
-	}))
-	return nil
-}
