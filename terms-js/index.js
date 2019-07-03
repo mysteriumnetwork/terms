@@ -16,7 +16,7 @@
  */
 module.exports = {
     TermsMd: '**MYSTERIUM NETWORK OPEN ALPHA**   \n' + 
-'   \n' + 
+' \n' + 
 '**TERMS OF USE**   \n' + 
 '   \n' + 
 '**FOR MYSTERIUM NODES** \n' + 
