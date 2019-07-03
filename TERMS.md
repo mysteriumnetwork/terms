@@ -5,7 +5,7 @@
 **FOR MYSTERIUM NODES**
 
 SHORT VERSION IN HUMAN LANGUAGE:  
-  
+
 * Mysterium Platform and Mysterium Software is still in its development (alpha) stage. We will do our best to develop it further, but we cannot guarantee this.  
   
 * You will join our network and act as an exit node for others.  
