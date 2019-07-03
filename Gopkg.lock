@@ -88,10 +88,11 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:bd4420d6531b983aec8ec9c4537265a4f0efd980c06001bb41e28192a607549f"
+  digest = "1:f035b8f726de3dffc09d81a08bc18b8f13a0f4cff4ad5f27db90f6225d60e3da"
   name = "github.com/mysteriumnetwork/go-ci"
   packages = [
     "env",
+    "git",
     "github",
   ]
   pruneopts = "UT"
@@ -300,6 +301,7 @@
     "github.com/magefile/mage/mg",
     "github.com/magefile/mage/sh",
     "github.com/mysteriumnetwork/go-ci/env",
+    "github.com/mysteriumnetwork/go-ci/git",
   ]
   solver-name = "gps-cdcl"
   solver-version = 1
