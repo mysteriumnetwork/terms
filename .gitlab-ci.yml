@@ -13,6 +13,8 @@ variables:
 generate:
   stage: build
   tags: [go]
+  before_script:
+    - dep ensure -v
   script: go run mage.go -v ci
   only:
     - master
