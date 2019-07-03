@@ -20,6 +20,7 @@ generate:
   stage: build
   tags: [go]
   before_script:
+    - git remote add upstream git@github.com:mysteriumnetwork/terms.git
     - git checkout -B master origin/master
     - dep ensure -v
   script: go run mage.go -v ci

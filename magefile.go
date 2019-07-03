@@ -21,7 +21,7 @@ package main
 
 import (
 	"github.com/mysteriumnetwork/go-ci/env"
-	"github.com/mysteriumnetwork/go-ci/git"
+	cigit "github.com/mysteriumnetwork/go-ci/git"
 	"github.com/mysteriumnetwork/terms/ci/generate"
 )
 
@@ -34,7 +34,7 @@ func must(err error) {
 // CI generates, commits, releases & pushes updated terms
 func CI() error {
 	must(env.EnsureEnvVars(env.GithubAPIToken))
-	git := git.NewCommiter(env.Str(env.GithubAPIToken))
+	git := cigit.NewCommiter(env.Str(env.GithubAPIToken))
 	must(git.Checkout("master"))
 	must(generate.Generate())
 	_, err := git.Commit("Updating terms packages",
@@ -45,6 +45,8 @@ func CI() error {
 	if err != nil {
 		return err
 	}
-	must(git.Push())
+	must(git.Push(&cigit.PushOptions{
+		Remote: "upstream",
+	}))
 	return nil
 }

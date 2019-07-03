@@ -88,7 +88,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:f035b8f726de3dffc09d81a08bc18b8f13a0f4cff4ad5f27db90f6225d60e3da"
+  digest = "1:458cc80f2884d4a7f3ec4116811099d3d914af4c18fc379301783eb51c235e45"
   name = "github.com/mysteriumnetwork/go-ci"
   packages = [
     "env",
@@ -96,7 +96,7 @@
     "github",
   ]
   pruneopts = "UT"
-  revision = "740dc35883bdd96ce25cfca22716841b44b5b228"
+  revision = "7d195c718e090eac482bce9cba8381a1786a4365"
 
 [[projects]]
   digest = "1:b2ee62e09bec113cf086d2ce0769efcc7bf79481aba8373fd8f7884e94df3462"
