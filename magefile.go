@@ -20,6 +20,31 @@
 package main
 
 import (
-	// mage:import
-	_ "github.com/mysteriumnetwork/terms/ci/generate"
+	"github.com/mysteriumnetwork/go-ci/env"
+	"github.com/mysteriumnetwork/go-ci/git"
+	"github.com/mysteriumnetwork/terms/ci/generate"
 )
+
+func must(err error) {
+	if err != nil {
+		panic(err)
+	}
+}
+
+// CI generates, commits, releases & pushes updated terms
+func CI() error {
+	must(env.EnsureEnvVars(env.GithubAPIToken))
+	git := git.NewCommiter(env.Str(env.GithubAPIToken))
+	must(git.Checkout("master"))
+	must(generate.Generate())
+	_, err := git.Commit("Updating terms packages",
+		"terms-go/terms_bindata.go",
+		"terms-js/package.json",
+		"terms-js/index.js",
+	)
+	if err != nil {
+		return err
+	}
+	must(git.Push())
+	return nil
+}
