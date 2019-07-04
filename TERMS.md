@@ -133,5 +133,6 @@ No waiver by either party of any breach or default hereunder shall be deemed to 
   
 You agree that these Terms and our rights hereunder may be assigned, in whole or in part, by us or our affiliate to any third party, at our sole discretion, including an assignment in connection with a merger, acquisition, reorganization or sale of substantially all of our assets, or otherwise, in whole or in part. You may not delegate, sublicense or assign your rights under these Terms.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NzE5OTYwMywxMTg2NjgwNjkxXX0=
+eyJoaXN0b3J5IjpbLTE3NTUyODA5MjcsMjA4NzE5OTYwMywxMT
+g2NjgwNjkxXX0=
 -->
