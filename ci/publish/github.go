@@ -18,6 +18,10 @@ func Publish() error {
 	}
 
 	git := cigit.NewCommiter(env.Str(env.GithubAPIToken))
+	err = git.Checkout("master")
+	if err != nil {
+		return err
+	}
 
 	_, err = git.Commit("Updating terms packages [skip ci]",
 		"terms-go/terms_bindata.go",
