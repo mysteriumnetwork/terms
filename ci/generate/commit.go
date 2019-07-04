@@ -15,26 +15,45 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package publish
+package generate
 
 import (
 	cienv "github.com/mysteriumnetwork/go-ci/env"
-	"github.com/mysteriumnetwork/go-ci/github"
-	"github.com/mysteriumnetwork/terms/ci/env"
+	mgit "github.com/mysteriumnetwork/go-ci/git"
+	env "github.com/mysteriumnetwork/terms/ci/env"
 	"github.com/pkg/errors"
 )
 
-// PublishGithub publishes next Github release
-func PublishGithub() error {
-	nextVersion := cienv.Str(env.NextVersion)
-
-	releaser, err := github.NewReleaser(cienv.Str(cienv.GithubOwner), cienv.Str(cienv.GithubRepository), cienv.Str(cienv.GithubAPIToken))
+// Commits and pushes generated files
+func CommitGenerated() error {
+	err := cienv.EnsureEnvVars(cienv.GithubOwner, cienv.GithubRepository, cienv.GithubAPIToken, env.NextVersion)
 	if err != nil {
 		return err
 	}
 
-	if _, err := releaser.Create(nextVersion); err != nil {
-		return errors.Wrap(err, "could not create next tag")
+	git := mgit.NewCommiter(cienv.Str(cienv.GithubAPIToken))
+
+	err = git.Checkout(&mgit.CheckoutOptions{
+		BranchName: "master",
+		Keep:       true,
+	})
+	if err != nil {
+		return err
+	}
+
+	_, err = git.Commit("Update terms packages [skip ci]",
+		"terms-go/terms_bindata.go",
+		"terms-js/package.json",
+		"terms-js/index.js",
+	)
+	if err != nil {
+		return errors.Wrap(err, "could not commit generated files")
+	}
+	err = git.Push(&mgit.PushOptions{
+		Remote: "upstream",
+	})
+	if err != nil {
+		return errors.Wrap(err, "could not push to upstream")
 	}
 
 	return nil

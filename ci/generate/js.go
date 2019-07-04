@@ -25,6 +25,8 @@ import (
 	"path/filepath"
 	"strings"
 
+	cienv "github.com/mysteriumnetwork/go-ci/env"
+	"github.com/mysteriumnetwork/terms/ci/env"
 	"github.com/mysteriumnetwork/terms/terms-go"
 )
 
@@ -36,8 +38,13 @@ type templateParams struct {
 
 // GenerateJs embeds terms into `terms-js/index.js`
 func GenerateJs() error {
+	err := cienv.EnsureEnvVars(env.NextVersion)
+	if err != nil {
+		return err
+	}
+
 	params := &templateParams{
-		BuildVersion: os.Getenv("BUILD_VERSION"),
+		BuildVersion: cienv.Str(env.NextVersion),
 		TermsMd:      generateJsMultiline(string(terms.TermsMdBytes)),
 		WarrantyMd:   generateJsMultiline(string(terms.WarrantyMdBytes)),
 	}
@@ -48,7 +55,12 @@ func GenerateJs() error {
 	}
 
 	for _, f := range templateFiles {
-		if err := generateJsUsingTemplate(filepath.Join("terms-js/template", f.Name()), filepath.Join("terms-js", f.Name()), params); err != nil {
+		err := generateJsUsingTemplate(
+			filepath.Join("terms-js/template", f.Name()),
+			filepath.Join("terms-js", f.Name()),
+			params,
+		)
+		if err != nil {
 			return err
 		}
 	}

@@ -21,6 +21,8 @@ package main
 
 import (
 	// mage:import
+	_ "github.com/mysteriumnetwork/terms/ci/env"
+	// mage:import
 	_ "github.com/mysteriumnetwork/terms/ci/generate"
 	// mage:import
 	_ "github.com/mysteriumnetwork/terms/ci/publish"
