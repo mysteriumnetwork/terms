@@ -27,9 +27,11 @@ env:
   tags: [go]
   artifacts:
     paths: [build/env.sh]
-  before_script:
+  before_script: []
+  script:
+    - git checkout -B master origin/master
     - dep ensure -v
-  script: go run mage.go -v GenerateEnvFile
+    - go run mage.go -v GenerateEnvFile
 
 generate:
   stage: build
