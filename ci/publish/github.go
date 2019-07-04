@@ -23,7 +23,7 @@ func Publish() error {
 		return err
 	}
 
-	_, err = git.Commit("Updating terms packages [skip ci]",
+	_, err = git.Commit("Update terms packages [skip ci]",
 		"terms-go/terms_bindata.go",
 		"terms-js/package.json",
 		"terms-js/index.js",
