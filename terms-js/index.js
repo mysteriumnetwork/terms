@@ -18,11 +18,11 @@ module.exports = {
     TermsMd: '**MYSTERIUM NETWORK OPEN ALPHA**   \n' + 
 ' \n' + 
 '**TERMS OF USE**   \n' + 
-'   \n' + 
+' \n' + 
 '**FOR MYSTERIUM NODES** \n' + 
 ' \n' + 
 'SHORT VERSION IN HUMAN LANGUAGE:   \n' + 
-'   \n' + 
+' \n' + 
 '* Mysterium Platform and Mysterium Software is still in its development (alpha) stage. We will do our best to develop it further, but we cannot guarantee this.   \n' + 
 '   \n' + 
 '* You will join our network and act as an exit node for others.   \n' + 
