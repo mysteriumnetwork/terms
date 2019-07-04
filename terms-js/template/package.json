@@ -3,6 +3,10 @@
   "version": "{{.BuildVersion}}",
   "description": "Terms of use for Mysterium nodes",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "package.json"
+  ],
   "repository": "https://github.com/mysteriumnetwork/terms",
   "author": "Mysterium Network",
   "license": "GPL-3.0"
