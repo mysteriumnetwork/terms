@@ -19,7 +19,7 @@ func Publish() error {
 
 	git := cigit.NewCommiter(env.Str(env.GithubAPIToken))
 
-	_, err = git.Commit("Updating terms packages",
+	_, err = git.Commit("Updating terms packages [skip ci]",
 		"terms-go/terms_bindata.go",
 		"terms-js/package.json",
 		"terms-js/index.js",
