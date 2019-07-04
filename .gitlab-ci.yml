@@ -52,7 +52,6 @@ generate:
 
 publish-npm:
   stage: publish
-  tags: [go]
+  tags: [nodejs]
   script:
-    - cat terms-js/package.json
-    - echo "Just testing."
+    - npm publish ./terms-js --access public
