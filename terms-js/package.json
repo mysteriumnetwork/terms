@@ -1,9 +1,17 @@
 {
-  "name": "mysterium-terms",
-  "version": "0.0.8",
+  "name": "@mysteriumnetwork/terms",
+  "version": "",
   "description": "Terms of use for Mysterium nodes",
   "main": "index.js",
-  "repository": "https://github.com/mysteriumnetwork/terms",
+  "files": [
+    "index.js",
+    "package.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mysteriumnetwork/terms.git"
+  },
   "author": "Mysterium Network",
+  "homepage": "https://mysterium.network",
   "license": "GPL-3.0"
 }
