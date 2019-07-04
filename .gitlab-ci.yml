@@ -44,5 +44,15 @@ generate:
     - go run mage.go -v GenerateJs
     - go run mage.go -v CommitGenerated
     - go run mage.go -v PublishGithub
+  artifacts:
+    paths:
+      - terms-js
   only:
     - master
+
+publish-npm:
+  stage: publish
+  tags: [go]
+  script:
+    - cat terms-js/package.json
+    - echo "Just testing."
