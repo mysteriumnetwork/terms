@@ -57,7 +57,6 @@ publish-npm:
     GIT_CLONE_PATH: ""
   image:
     name: node:lts-alpine
-    entrypoint: ["/bin/sh"]
   script:
     - echo '//registry.npmjs.org/:_authToken=${NPM_PUBLISH_TOKEN}'>.npmrc
     - npm publish ./terms-js --access public
