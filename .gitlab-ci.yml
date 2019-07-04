@@ -52,6 +52,10 @@ generate:
 
 publish-npm:
   stage: publish
-  tags: [nodejs]
+  tags: [docker]
+  image:
+    name: node:lts-alpine
+    entrypoint: ["/bin/sh"]
   script:
+    - echo '//registry.npmjs.org/:_authToken=${NPM_PUBLISH_TOKEN}'>.npmrc
     - npm publish ./terms-js --access public
