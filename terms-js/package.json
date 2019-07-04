@@ -1,6 +1,6 @@
 {
   "name": "mysterium-terms",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Terms of use for Mysterium nodes",
   "main": "index.js",
   "repository": "https://github.com/mysteriumnetwork/terms",
