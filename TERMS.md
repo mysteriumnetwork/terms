@@ -1,12 +1,9 @@
-
-MYSTERIUM NETWORK OPEN ALPHA ![](https://docs.google.com/a/mysterium.network/drawings/d/sNht9QEKcFJw4BtI0XvNzJQ/image?w=11&h=879&rev=1&ac=1&parent=1catOSFtMGJUepy_S0RgFgcy6r-4OeXpnJhscETZmigA)![](https://docs.google.com/a/mysterium.network/drawings/d/s1OtMgoVTT2-D7AVijxgMRg/image?w=19&h=15&rev=1&ac=1&parent=1catOSFtMGJUepy_S0RgFgcy6r-4OeXpnJhscETZmigA)![](https://docs.google.com/a/mysterium.network/drawings/d/sh54hBcr9Jz6b9pukkoPRbQ/image?w=11&h=15&rev=1&ac=1&parent=1catOSFtMGJUepy_S0RgFgcy6r-4OeXpnJhscETZmigA)
+**MYSTERIUM NETWORK OPEN ALPHA** 
 
 TERMS OF USE
 
 FOR END USERS
 
-  
-  
 
 SHORT VERSION IN HUMAN LANGUAGE:
 
@@ -58,12 +55,10 @@ We do not guarantee that the Mysterium Platform Open Alpha will be developed to 
 To maintain and develop the Mysterium Platform Open Alpha we may collect limited and anonymized information and performance data.
 
 5.  EQUIPMENT
-    
 
 You shall be responsible for obtaining and maintaining all hardware, software and other equipment needed for access to and use of the Mysterium Platform Open Alpha and all charges related thereto.
 
-6.  RESTRICTED CONDUCT![](https://docs.google.com/a/mysterium.network/drawings/d/sLZ6cFyNnb6CM7p2uL-qxiQ/image?w=19&h=15&rev=1&ac=1&parent=1catOSFtMGJUepy_S0RgFgcy6r-4OeXpnJhscETZmigA)
-    
+6.  RESTRICTED CONDUCT
 
 You shall use the Mysterium Platform Open Alpha for lawful purposes only. You shall not post or transmit through the Mysterium Platform Open Alpha any material which violates or infringes in any way upon the rights of others, which is unlawful, threatening, abusive, defamatory, invasive of privacy or publicity rights, which encourages conduct that would constitute a criminal offense, give rise to civil liability or otherwise violate any law. Any conduct by a you that in our discretion restricts or inhibits any other user from using or enjoying the Mysterium Network or Software will not be permitted.
 
@@ -86,7 +81,7 @@ Without limiting the generality of the foregoing, you shall not use the Program 
 -   any other activities that are against the law of the country you originate from or reside in, and/or any other activities that are not compatible with the principles of democracy, freedom of speech, freedom of expression, and human rights
     
 
-7.  YOUR ID AND SECURITY![](https://docs.google.com/a/mysterium.network/drawings/d/shdGTmIZm_7KmB81KbJcNzw/image?w=11&h=879&rev=1&ac=1&parent=1catOSFtMGJUepy_S0RgFgcy6r-4OeXpnJhscETZmigA)![](https://docs.google.com/a/mysterium.network/drawings/d/sJeK2gXjPRKyilpYR_LHiNQ/image?w=11&h=15&rev=1&ac=1&parent=1catOSFtMGJUepy_S0RgFgcy6r-4OeXpnJhscETZmigA)
+7.  YOUR ID AND SECURITY![](https://docs.google.com/a/mysterium.network/drawings/d/sJeK2gXjPRKyilpYR_LHiNQ/image?w=11&h=15&rev=1&ac=1&parent=1catOSFtMGJUepy_S0RgFgcy6r-4OeXpnJhscETZmigA)
     
 
 An ID and a private key (jointly, the “ID Data”) will be automatically created for your when you install or run the Software for the first time. You are entirely responsible for maintaining the confidentiality of your ID Data. Furthermore, you are entirely responsible for any activities that occur under your ID Data. You agree to notify us immediately of any unauthorized use of your account or any other breach of security. We will not be liable for any loss that you may incur as a result of someone else using your ID Data, either with or without your knowledge. However, you could be held liable for losses incurred by us or another party due to someone else using your account. You may not use anyone else's ID Data at any time, without the permission of the account holder.
@@ -139,6 +134,6 @@ No waiver by either party of any breach or default hereunder shall be deemed to 
 
 You agree that these Terms and our rights hereunder may be assigned, in whole or in part, by us or our affiliate to any third party, at our sole discretion, including an assignment in connection with a merger, acquisition, reorganization or sale of substantially all of our assets, or otherwise, in whole or in part. You may not delegate, sublicense or assign your rights under these Terms.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1Njg0Nzk5NSwtMTc1NTI4MDkyNywyMD
+eyJoaXN0b3J5IjpbMTIzNDM5OTA3MSwtMTc1NTI4MDkyNywyMD
 g3MTk5NjAzLDExODY2ODA2OTFdfQ==
 -->
