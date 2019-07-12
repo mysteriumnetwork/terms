@@ -133,8 +133,7 @@ module.exports = {
 ' \n' + 
 'You agree that these Terms and our rights hereunder may be assigned, in whole or in part, by us or our affiliate to any third party, at our sole discretion, including an assignment in connection with a merger, acquisition, reorganization or sale of substantially all of our assets, or otherwise, in whole or in part. You may not delegate, sublicense or assign your rights under these Terms. \n' + 
 '\x3C!--stackedit_data: \n' + 
-'eyJoaXN0b3J5IjpbMTQ2MDkyMDg2MCwtMTc1NTI4MDkyNywyMD \n' + 
-'g3MTk5NjAzLDExODY2ODA2OTFdfQ== \n' + 
+'eyJoaXN0b3J5IjpbMTQ2MDkyMDg2MF19 \n' + 
 '--\x3E \n',
     WarrantyMd: 'THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY \n' + 
 'APPLICABLE LAW.  EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT \n' + 
