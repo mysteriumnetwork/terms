@@ -1,6 +1,6 @@
 Please read the guidelines below and accept these Terms and Conditions to join the Mysterium Node Runner Pilot.
 
-Mysterium Node Runner (the “Pilot”) description
+Mysterium Node Runner (the “Pilot”) description 
 
 This Pilot is an internal test that we are running with the purpose of gathering data on our network, users and incentive structures. It consists of onboarding both node runners and traffic providers on the Mysterium Network and analysing a set of performance metrics.
 
@@ -90,5 +90,5 @@ Changes to Program Terms
 
 The Program Terms, including its terms, policies, conditions and disclaimers are subject to change or cancellation by us at any time, without any additional notice. As such, we may amend these Terms and/or its policies at any time. By continuing to participate in the Program after we post any such changes, you accept the Program Terms, as modified.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNDQxNTk5XX0=
+eyJoaXN0b3J5IjpbLTEyOTE1NTA1NDldfQ==
 -->
