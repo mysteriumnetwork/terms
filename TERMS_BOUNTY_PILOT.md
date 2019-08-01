@@ -1,7 +1,7 @@
 
-Please read the guidelines below and accept these Terms and Conditions to join the Mysterium Node Runner Pilot.
+**Please read the guidelines below and accept these Terms and Conditions to join the Mysterium Node Runner Pilot.**
 
-Mysterium Node Runner (the “Pilot”) description
+**Mysterium Node Runner (the “Pilot”) description**
 
 This Pilot is an internal test that we are running with the purpose of gathering data on our network, users and incentive structures. It consists of onboarding both node runners and traffic providers on the Mysterium Network and analysing a set of performance metrics.
 
@@ -11,7 +11,7 @@ Throughout the length of the Pilot, we reserve the right to make any changes to 
 
 We cannot ensure that all or any of the participating nodes in the Pilot will continue to be used in our network once the Pilot ends. Below you will find the general terms and conditions that you will have to accept in order to continue with the Pilot.
 
-Pilot Terms
+**Pilot Terms**
 
 Please note that your participation in the Pilot is voluntary and subject to the terms and conditions set forth on this page (the “Pilot Terms”).
 
@@ -19,7 +19,7 @@ By participating in the Pilot you are fully accepting the terms, conditions and 
 
 By participating in the Pilot you confirm that you are not breaking any laws, statutes, regulations, rules or otherwise and (or) violating any terms, including, but not limited to the terms of the agreement with your internet service provider.
 
-Eligibility Requirements
+**Eligibility Requirements**
 
 To be eligible for the participation and Pilot compensation, you need to:
 
@@ -93,9 +93,9 @@ If you are disqualified from the Program for any reason, you will NOT receive an
 
 Additional bounties may be earned throughout the Pilot and we will announce them on a rolling basis.
 
-Changes to Program Terms
+**Changes to Program Terms**
 
 The Program Terms, including its terms, policies, conditions and disclaimers are subject to change or cancellation by us at any time, without any additional notice. As such, we may amend these Terms and/or its policies at any time. By continuing to participate in the Program after we post any such changes, you accept the Program Terms, as modified.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzQ2ODYyNSw4NzkzMzMxMTldfQ==
+eyJoaXN0b3J5IjpbMjU3MjM4NzY3LDg3OTMzMzExOV19
 -->
