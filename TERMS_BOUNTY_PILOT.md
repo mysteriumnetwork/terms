@@ -23,33 +23,24 @@ Eligibility Requirements
 
 To be eligible for the participation and Pilot compensation, you need to:
 
- - fill in the Pilot questionnaire   
-   ([https://mysteriumnetwork.typeform.com/to/Z4rbwr](https://mysteriumnetwork.typeform.com/to/Z4rbwr))
-   and provide us with a valid email address that will be needed for:
-      
-      
-      -   to confirm your participation in the Pilot;
-      
-      -   to contact you should anything go wrong with your payment. Failure to do so will result in our inability to pay you once we   
+ - fill in the Pilot questionnaire
+   ([https://mysteriumnetwork.typeform.com/to/Z4rbwr](https://mysteriumnetwork.typeform.com/to/Z4rbwr)) and provide us with a valid email address that will be needed for:
+	   -   to confirm your participation in the Pilot;
+	   -   to contact you should anything go wrong with your payment. Failure to do so will result in our inability to pay you once we
    start the program if we can’t reach you;
-      
-      -   to reach out to you to get more information about software performance;
-      
-      
-      -   get an invitation and email confirmation from us that you are approved for Pilot program;
-      
-      -   be able to download and install node runner software. Although we offer discretionary support, we are not responsible for any issues
+	   -  	to reach out to you to get more information about software performance;
+   -   get an invitation and email confirmation from us that you are approved for Pilot program;
+   -   be able to download and install node runner software. Although we offer discretionary support, we are not responsible for any issues
    with your installation during the Pilot;
-      
-      -   have and provide your ETH (Ethereum) Wallet address where we can make the payments;
-      
-      -   comply with node runner software terms & conditions at [https://mysterium.network/terms-conditions/](https://mysterium.network/terms-conditions/)
-      
-      -   have a residential IP (Datacenter IPs will be excluded);
-      
-      -   your OS has to be active and running node desktop app and have an active Internet connection
-      
-      -   not be employed or associated with NetSys Inc. or its affiliates
+   -   have and provide your ETH (Ethereum) Wallet address where we can make the payments;
+
+   -   comply with node runner software terms & conditions at [https://mysterium.network/terms-conditions/](https://mysterium.network/terms-conditions/)
+   
+   -   have a residential IP (Datacenter IPs will be excluded);
+   
+   -   your OS has to be active and running node desktop app and have an active Internet connection
+   
+   -   not be employed or associated with NetSys Inc. or its affiliates
 
     
 
@@ -102,5 +93,5 @@ Changes to Program Terms
 
 The Program Terms, including its terms, policies, conditions and disclaimers are subject to change or cancellation by us at any time, without any additional notice. As such, we may amend these Terms and/or its policies at any time. By continuing to participate in the Program after we post any such changes, you accept the Program Terms, as modified.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTE2OTg5NzUsODc5MzMzMTE5XX0=
+eyJoaXN0b3J5IjpbLTExOTkxNTUxODksODc5MzMzMTE5XX0=
 -->
