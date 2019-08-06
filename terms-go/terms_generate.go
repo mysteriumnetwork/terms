@@ -23,20 +23,25 @@ import (
 	"log"
 
 	"github.com/go-bindata/go-bindata"
-	"github.com/mysteriumnetwork/terms/terms-go"
+
+	"github.com/mysteriumnetwork/terms/ci/generate"
 )
 
 func main() {
 	cfg := &bindata.Config{
 		Package: "terms",
 		Input: []bindata.InputConfig{
-			{Path: "../" + terms.TermsFilename},
-			{Path: "../" + terms.WarrantyFilename},
+			{Path: "../documents/"},
 		},
 		Output: "./terms_bindata.go",
-		Prefix: "../",
+		Prefix: "../documents/",
 	}
 	err := bindata.Translate(cfg)
+	if err != nil {
+		log.Fatalln(err)
+	}
+
+	err = generate.GenerateGoVariables()
 	if err != nil {
 		log.Fatalln(err)
 	}

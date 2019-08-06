@@ -20,13 +20,5 @@ package terms
 //go:generate go run terms_generate.go
 
 const (
-	TermsFilename    = "TERMS.md"
-	WarrantyFilename = "WARRANTY.md"
-)
-
-var (
-	// TermsMdBytes Mysterium node terms and conditions
-	TermsMdBytes    = MustAsset(TermsFilename)
-	// WarrantyMdBytes Mysterium node warranty
-	WarrantyMdBytes = MustAsset(WarrantyFilename)
+	DocumentDirectory = "documents"
 )

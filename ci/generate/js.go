@@ -26,14 +26,31 @@ import (
 	"strings"
 
 	cienv "github.com/mysteriumnetwork/go-ci/env"
+
 	"github.com/mysteriumnetwork/terms/ci/env"
 	"github.com/mysteriumnetwork/terms/terms-go"
 )
 
+type templateVariables map[string]string
 type templateParams struct {
 	BuildVersion string
-	TermsMd      string
-	WarrantyMd   string
+	Documents    templateVariables
+}
+
+func mapDocumentsIntoVariables(files []os.FileInfo) (templateVariables, error) {
+	variables := make(templateVariables)
+
+	for _, file := range files {
+		key := FileNameToVariableName(file.Name())
+		data, err := ioutil.ReadFile(filepath.Join(terms.DocumentDirectory, file.Name()))
+		if err != nil {
+			return nil, err
+		}
+
+		variables[key] = generateJsMultiline(string(data))
+	}
+
+	return variables, nil
 }
 
 // GenerateJs embeds terms into `terms-js/index.js`
@@ -43,10 +60,19 @@ func GenerateJs() error {
 		return err
 	}
 
+	documents, err := GetDocumentPaths(terms.DocumentDirectory + "/")
+	if err != nil {
+		return err
+	}
+
+	variables, err := mapDocumentsIntoVariables(documents)
+	if err != nil {
+		return err
+	}
+
 	params := &templateParams{
 		BuildVersion: cienv.Str(env.NextVersion),
-		TermsMd:      generateJsMultiline(string(terms.TermsMdBytes)),
-		WarrantyMd:   generateJsMultiline(string(terms.WarrantyMdBytes)),
+		Documents:    variables,
 	}
 
 	templateFiles, err := ioutil.ReadDir("terms-js/template")
