@@ -1,12 +1,10 @@
 # Terms of use for Mysterium nodes
 
-Provides terms and conditions for embedding into various platforms:
-- `TERMS.md`
-- `WARRANTY.md`
+Provides terms and conditions for embedding into various platforms.
 
 Regenerate after updating markdown sources (for all targets):
 ```bash
-go run mage.go generate
+go run mage.go -v GenerateGo GenerateJs
 ```
 
 ## Go
@@ -22,8 +20,8 @@ import (
 )
 
 func main()  {
-	fmt.Println(string(terms.WarrantyMdBytes))
-	fmt.Println(string(terms.TermsMdBytes))
+	fmt.Println(string(terms.Warranty))
+	fmt.Println(string(terms.TermsEndUser))
 }
 ```
 
@@ -31,8 +29,8 @@ func main()  {
 
 Usage:
 ```js
-import {TermsMd, WarrantyMd} from 'terms-js'
+import {TermsEndUser, TermsExitNode} from 'terms-js'
 
-console.log(TermsMd)
-console.log(WarrantyMd)
+console.log(TermsEndUser)
+console.log(TermsExitNode)
 ```
