@@ -27,9 +27,11 @@ func main()  {
 
 ## Javascript
 
+[![npm version](https://badge.fury.io/js/%40mysteriumnetwork%2Fterms.svg)](https://badge.fury.io/js/%40mysteriumnetwork%2Fterms)
+
 Usage:
 ```js
-import {TermsEndUser, TermsExitNode} from 'terms-js'
+import {TermsEndUser, TermsExitNode} from '@mysteriumnetwork/terms'
 
 console.log(TermsEndUser)
 console.log(TermsExitNode)
