@@ -18,7 +18,7 @@
     
 FULL VERSION:
 
-1.  ACCEPTANCE OF TERMS
+1\.  ACCEPTANCE OF TERMS
     
 These terms and conditions (the “Terms”) is a binding legal agreement between you and Netsys Inc. (“Mysterium Networks” or “we”) that governs your participation in the early open alpha testing program (the “Program”) of the Mysterium network (the “Network”) and the alpha version of the software (the “Software”). Mysterium Network and Software hereinafter may be referred jointly to as the “Mysterium Platform Open Alpha”.
 
@@ -26,17 +26,17 @@ Your enrolment and participation in the Program and access to and use of the Mys
 
 You may not sign up for and participate in the Program if you are under the age of 18 or if you are not the owner of the device on which you install the Software or otherwise use the Mysterium Platform Open Alpha.
 
-2.  CHANGED TERMS
+2\.  CHANGED TERMS
     
 We shall have the right at any time to change or modify the Terms or any part thereof, or to impose new conditions, including, but not limited to, adding fees and charges for use. Such changes, modifications, additions or deletions shall be effective immediately upon notice thereof, which may be given by means including, but not limited to, posting on our website, or by electronic or conventional mail, or by any other means by which you obtain notice thereof. Any use of the Network or the Software after such notice shall be deemed to constitute acceptance of such changes, modifications or additions.
 
-3.  DESCRIPTION OF MYSTERIUM PLATFORM
+3\.  DESCRIPTION OF MYSTERIUM PLATFORM
     
 The Mysterium Platform Open Alpha is a combination of the open source Software and the Network that allow you to enhance your privacy while using the internet. We accomplish this by creating virtual tunnels through one or more connections to other users of the Network (the “Nodes”) and by using their equipment and resources to route you to your final destination.
 
 The use of the Mysterium Platform Open Alpha, including any updates, enhancements, new features, and/or the addition of any new properties, are subject to the Terms.
 
-4.  OPEN ALPHA AND FEEDBACK
+4\.  OPEN ALPHA AND FEEDBACK
     
 The Mysterium Platform Open Alpha is still in its early development stage. The sole purpose of the Program is to obtain feedback on the performance of the Mysterium Platform Open Alpha and to identify its defects. You expressly acknowledge that the Mysterium Platform Open Alpha is a test product and may contain bugs, errors and other problems that could cause loss of data store in the platform, inconsistent performance and other failures including but not limited to systems crashes, interruptions and data loss. You are advised to use caution and not to rely in any way on the performance and functioning of the Mysterium Platform Open Alpha. The Mysterium Platform Open Alpha is made available to you free of charge and no warranty shall be provided for the Mysterium Platform Open Alpha.
 
@@ -44,11 +44,11 @@ We do not guarantee that the Mysterium Platform Open Alpha will be developed to 
 
 To maintain and develop the Mysterium Platform Open Alpha we may collect limited and anonymized information and performance data.
 
-5.  EQUIPMENT
+5\.  EQUIPMENT
 
 You shall be responsible for obtaining and maintaining all hardware, software and other equipment needed for access to and use of the Mysterium Platform Open Alpha and all charges related thereto.
 
-6.  RESTRICTED CONDUCT
+6\.  RESTRICTED CONDUCT
 
 You shall use the Mysterium Platform Open Alpha for lawful purposes only. You shall not post or transmit through the Mysterium Platform Open Alpha any material which violates or infringes in any way upon the rights of others, which is unlawful, threatening, abusive, defamatory, invasive of privacy or publicity rights, which encourages conduct that would constitute a criminal offense, give rise to civil liability or otherwise violate any law. Any conduct by a you that in our discretion restricts or inhibits any other user from using or enjoying the Mysterium Network or Software will not be permitted.
 
@@ -70,19 +70,19 @@ Without limiting the generality of the foregoing, you shall not use the Program 
     
 -   any other activities that are against the law of the country you originate from or reside in, and/or any other activities that are not compatible with the principles of democracy, freedom of speech, freedom of expression, and human rights
     
-7.  YOUR ID AND SECURITY
+7\.  YOUR ID AND SECURITY
     
 An ID and a private key (jointly, the “ID Data”) will be automatically created for your when you install or run the Software for the first time. You are entirely responsible for maintaining the confidentiality of your ID Data. Furthermore, you are entirely responsible for any activities that occur under your ID Data. You agree to notify us immediately of any unauthorized use of your account or any other breach of security. We will not be liable for any loss that you may incur as a result of someone else using your ID Data, either with or without your knowledge. However, you could be held liable for losses incurred by us or another party due to someone else using your account. You may not use anyone else's ID Data at any time, without the permission of the account holder.
 
-8.  SOFTWARE LICENSE
+8\.  SOFTWARE LICENSE
     
 You fully understand and accept that the Software is licensed to you, not sold. For the term of your participation in the Program we grant you a personal, non-exclusive, non-transferable, non-assignable, non-sub-licensable, revocable and limited license to install a copy of the Software on your personal device. This limited license is solely for your personal and non-commercial use. Any commercial participation in the Program or use of Software, including, but not limited to, any use by an individual on behalf of a company or corporate entity, shall be considered a breach of these Terms and automatically make the license void.
 
-9.  COPYRIGHT NOTICE
+9\.  COPYRIGHT NOTICE
     
 Our logos are our trademarks. All rights reserved. All other trademarks appearing on the Mysterium Platform Open Alpha are the property of their respective owners.
 
-10.  DISCLAIMER OF WARRANTY; LIMITATION OF LIABILITY
+10\.  DISCLAIMER OF WARRANTY; LIMITATION OF LIABILITY
     
 YOU EXPRESSLY AGREE THAT USE OF THE MYSTERIUM PLATFORM OPEN ALPHA IS AT YOUR SOLE RISK. NEITHER WE, OUR AFFILIATES NOR ANY OF THEIR RESPECTIVE EMPLOYEES, AGENTS, THIRD PARTY CONTENT PROVIDERS OR LICENSORS WARRANT THAT THE MYSTERIUM PLATFORM OPEN ALPHA WILL BE UNINTERRUPTED OR ERROR FREE; NOR DO THEY MAKE ANY WARRANTY AS TO THE RESULTS THAT MAY BE OBTAINED FROM USE OF THE MYSTERIUM PLATFORM OPEN ALPHA, OR AS TO THE ACCURACY, RELIABILITY OR CONTENT OF ANY INFORMATION, SERVICE, OR MERCHANDISE PROVIDED THROUGH THE MYSTERIUM PLATFORM OPEN ALPHA.
 
@@ -96,15 +96,15 @@ IN ADDITION TO THE TERMS SET FORTH ABOVE NEITHER, WE, NOR OUR AFFILIATES OR CONT
 
 FORCE MAJEURE. NEITHER PARTY WILL BE RESPONSIBLE FOR ANY FAILURE OR DELAY IN PERFORMANCE DUE TO CIRCUMSTANCES BEYOND ITS REASONABLE CONTROL, INCLUDING, WITHOUT LIMITATION, ACTS OF GOD, WAR, RIOT, EMBARGOES, ACTS OF CIVIL OR MILITARY AUTHORITIES, FIRE, FLOODS, ACCIDENTS, SERVICE OUTAGES RESULTING FROM EQUIPMENT AND/OR SOFTWARE FAILURE AND/OR TELECOMMUNICATIONS FAILURES, POWER FAILURES, NETWORK FAILURES, FAILURES OF THIRD PARTY SERVICE PROVIDERS (INCLUDING PROVIDERS OF INTERNET SERVICES AND TELECOMMUNICATIONS). THE PARTY AFFECTED BY ANY SUCH EVENT SHALL NOTIFY THE OTHER PARTY WITHIN A MAXIMUM OF FIFTEEN (15) DAYS FROM ITS OCCURENCE. THE PERFORMANCE OF THS AGREEMENT SHALL THEN BE SUSPENDED FOR AS LONG AS ANY SUCH EVENT SHALL PREVENT THE AFFECTED PARTY FROM PERFORMING ITS OBLIGATIONS UNDER THIS AGREEMENT.
 
-11.  INDEMNIFICATION
+11\.  INDEMNIFICATION
     
 You agree to defend, indemnify and hold harmless us, our affiliates and their respective directors, officers, employees and agents from and against all claims and expenses, including attorneys' fees, arising out of the use of the Mysterium Platform Open Alpha by you or your account.
 
-12.  TERMINATION
+12\.  TERMINATION
     
 Either we or you may terminate this agreement at any time. Without limiting the foregoing, we shall have the right to immediately terminate your account in the event of your conduct by which we, in our sole discretion, consider to be unacceptable, or in the event of any breach by these Terms.
 
-13.  MISCELLANEOUS
+13\.  MISCELLANEOUS
     
 The Mysterium Platform Open Alpha is intended for use only in compliance with applicable laws and you undertake to use it in accordance with all such applicable laws. Without derogating from the foregoing and from any other terms herein, you agree to comply with all applicable export laws and restrictions and regulations and agree that you will not export, or allow the export or re-export of the Mysterium Platform Open Alpha or any part of it in violation of any such restrictions, laws or regulations
 
