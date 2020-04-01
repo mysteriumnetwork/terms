@@ -30,7 +30,6 @@ env:
   before_script: []
   script:
     - git checkout -B master origin/master
-    - dep ensure -v
     - go run mage.go -v GenerateEnvFile
 
 generate:
@@ -39,7 +38,6 @@ generate:
   script:
     - git remote add upstream https://github.com/mysteriumnetwork/terms.git
     - git checkout -B master origin/master
-    - dep ensure -v
     - go run mage.go -v GenerateGo
     - go run mage.go -v GenerateJs
     - go run mage.go -v CommitGenerated
