@@ -1,6 +1,7 @@
 {
   "name": "@mysteriumnetwork/terms",
   "version": "{{.BuildVersion}}",
+  "updatedAt": "{{.UpdatedAt}}",
   "description": "Terms of use for Mysterium nodes",
   "main": "index.js",
   "files": [

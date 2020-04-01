@@ -24,6 +24,7 @@ import (
 	"os"
 	"path/filepath"
 	"strings"
+	"time"
 
 	cienv "github.com/mysteriumnetwork/go-ci/env"
 
@@ -34,6 +35,7 @@ import (
 type templateVariables map[string]string
 type templateParams struct {
 	BuildVersion string
+	UpdatedAt    string
 	Documents    templateVariables
 }
 
@@ -72,6 +74,7 @@ func GenerateJs() error {
 
 	params := &templateParams{
 		BuildVersion: cienv.Str(env.NextVersion),
+		UpdatedAt:    time.Now().Format("2006-01-02"),
 		Documents:    variables,
 	}
 
