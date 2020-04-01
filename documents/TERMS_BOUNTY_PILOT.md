@@ -22,33 +22,17 @@ By participating in the Pilot you confirm that you are not breaking any laws, st
 **Eligibility Requirements**
 
 To be eligible for the participation and Pilot compensation, you need to:
-
 -   fill in the Pilot questionnaire ([https://mysteriumnetwork.typeform.com/to/Z4rbwr](https://mysteriumnetwork.typeform.com/to/Z4rbwr)) and provide us with a valid email address that will be needed for:
-    
-
 	-   to confirm your participation in the Pilot;
-	    
 	-   to contact you should anything go wrong with your payment. Failure to do so will result in our inability to pay you once we start the program if we can’t reach you;
-	    
 	-   to reach out to you to get more information about software performance;
-    
-
 -   get an invitation and email confirmation from us that you are approved for Pilot program;
-    
 -   be able to download and install node runner software. Although we offer discretionary support, we are not responsible for any issues with your installation during the Pilot;
-    
 -   have and provide your ETH (Ethereum) Wallet address where we can make the payments;
-    
 -   comply with node runner software terms & conditions at [https://mysterium.network/terms-conditions/](https://mysterium.network/terms-conditions/)
-    
 -   have a residential IP (Datacenter IPs will be excluded);
-    
 -   your OS has to be active and running node desktop app and have an active Internet connection
-    
 -   not be employed or associated with NetSys Inc. or its affiliates
-    
-
-  
 
 **Payments**
 
@@ -65,23 +49,14 @@ We will pay $0.07 worth of ETH per hour of your availability for sharing your ba
 In order to receive a reward you have to meet the following criteria:
 
 -   Accumulated minimum $5 of balance the current month. The balance that did not reach this limit is transferable to the next month.
-    
 -   5Mbps upload speed dedicated to the node
-    
 -   Other requirements not specified the Pilot which we may determine from time to time for the internal testing purposes.
-    
-
-  
-  
 
 We will also be looking at the following metrics to improve the user experience for nodes but this will not affect how much you can earn:
 
 -   Successful vs unsuccessful connections
-    
 -   Number of unique sessions during the month
-    
 -   The average duration of each session
-    
 
 These conditions may change throughout the Pilot and we will inform you as soon as we implement new ones.
 
