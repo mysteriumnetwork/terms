@@ -56,5 +56,5 @@ publish-npm:
   image:
     name: node:lts-alpine
   script:
-    - echo '//registry.npmjs.org/:_authToken=${NPM_PUBLISH_TOKEN}'>.npmrc
+    - npm config set '//registry.npmjs.org/:_authToken' "${NPM_PUBLISH_TOKEN}"
     - npm publish ./terms-js --access public
