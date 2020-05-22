@@ -1,11 +1,13 @@
-# Terms of use for Mysterium nodes
+# Terms of use for BlockDEV AG (Mysterium Network) software
 
 Provides terms and conditions for embedding into various platforms.
 
-Regenerate after updating markdown sources (for all targets):
+For local testing purposes you can generate after updating markdown sources (for all targets):
 ```bash
-go run mage.go -v GenerateGo GenerateJs
+NEXT_VERSION=testver go run mage.go -v GenerateGo GenerateJs
 ```
+
+Changes do not need to be committed. CI will generate changes automatically. 
 
 ## Go
 
