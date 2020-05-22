@@ -1,5 +1,10 @@
 **MYSTERIUM NETWORK OPEN ALPHA** 
 
+**This document includes:**
+
+ - Terms of use for end users
+ - Privacy policy & no-logs pledge
+
 **TERMS OF USE**
 
 **FOR END USERS**
@@ -123,3 +128,38 @@ No waiver by either party of any breach or default hereunder shall be deemed to 
 
 You agree that these Terms and our rights hereunder may be assigned, in whole or in part, by us or our affiliate to any third party, at our sole discretion, including an assignment in connection with a merger, acquisition, reorganization or sale of substantially all of our assets, or otherwise, in whole or in part. You may not delegate, sublicense or assign your rights under these Terms.
 
+**PRIVACY POLICY & NO-LOGS PLEDGE**
+
+Effective date: May 22, 2020
+
+Netsys Inc. ("us", "we", or "our") operates the Mysterium network (the “Network”). 
+
+This privacy policy (the “Privacy Policy”) informs you of our policies regarding the collection, use and disclosure of data when you use the Network and the choices you have associated with that data. This Privacy Policy applies only if and to the extent we process the data in relation to the Network. 
+
+This Privacy Policy supplements our Terms of Use /link/ (“ToU”) and is an integral part of it. If any provisions of the Privacy Policy and the ToU cannot be read in any manner other than a one that produces an irreconcilable conflict between them, the provisions of this Privacy Policy shall prevail. Unless otherwise defined in this Privacy Policy, the terms used in this Privacy Policy have the same meanings as in our ToU.
+
+A. NO-LOGS PLEDGE   
+
+We will not collect any information or store any logs about your browsing activity, queries, data destinations, IP addresses or timestamps. We are based in a jurisdiction (Panama) which laws do not require us to retain any of such data. The only information we collect in connection to your use of the Network is the information listed in this Privacy Policy below.
+
+Additionally, as we provide the Network by creating virtual tunnels through one or more connections to other users of the Network (i.e. the Nodes, as defined in the ToU) and by using their equipment and resources to route you to your destination, it is not technically possible for us monitor your activities in the Network.
+
+In addition to our no-logs pledge this creates an additional layer of privacy for you.
+
+Having said this we feel that it is our obligation to inform you that the Network cannot guarantee 100% privacy. We enter into binding legal agreements with our users who run the nodes in the Network to prevent them from logging and storing the traffic which passes their nodes, but we cannot promise they will not.
+
+If the applicable law requires us to disclose your data, we will be forced to do so; however, as we collect and store just minimal data which does not allow to identify you (see below), the impact of such disclosure on your privacy will be minimal.
+
+B. ANONYMOUS DATA
+
+To use the Network you need to create a public / private key pair. Your public key will be passed to us to register you with the Network. Note, that this public key will not include any of your personal data and you cannot be identified by it. 
+
+When you use the Network we may collect minimal information on how the Network is used and whether the connection was successful. However, this information is anonymous and cannot identify you and we use it to develop and maintain the Network.
+
+C. CHANGES TO THE PRIVACY POLICY
+
+We may update our Privacy Policy from time to time. Such changes, modifications, additions or deletions shall be effective immediately upon notice thereof, which may be given by means including, but not limited to, posting on our website, or by electronic or conventional mail, or by any other means by which you obtain notice thereof. Any use of the Network after such notice shall be deemed to constitute acceptance of such changes, modifications or additions. 
+
+D. CONTACT US
+
+ If you have any questions about this Privacy Policy, please contact us by email: privacy@mysterium.network
