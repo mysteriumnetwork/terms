@@ -1,0 +1,84 @@
+plugins {
+    id 'java'
+    id 'maven-publish'
+}
+
+group 'network.mysterium'
+version '0.0.1-SNAPSHOT'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    testImplementation(
+        platform('org.junit:junit-bom:5.7.1'),
+        'org.junit.jupiter:junit-jupiter'
+    )
+}
+
+sourceSets {
+    main {
+        resources {
+            srcDirs 'src/main/resources', '../documents'
+        }
+    }
+}
+
+def mavenToken = System.getenv('MAVEN_TOKEN')
+if (!mavenToken) throw new GradleException('MAVEN_TOKEN not set')
+
+def nextVersion = System.getenv('NEXT_VERSION')
+if (!nextVersion) throw new GradleException('NEXT_VERSION not set')
+
+publishing {
+    repositories {
+        maven {
+            url 'https://maven.mysterium.network/releases'
+            credentials {
+                username = 'releases'
+                password = System.getenv('MAVEN_TOKEN')
+            }
+        }
+    }
+
+    publications {
+        mavenJava(MavenPublication) {
+            groupId = 'network.mysterium'
+            artifactId = 'terms'
+            version = System.getenv('NEXT_VERSION')
+            from components.java
+
+            pom {
+                name = 'Mysterium Network Terms'
+                description = 'A Mysterium Network Terms bundled as maven depdenceny'
+                url = 'https://github.com/mysteriumnetwork/terms.git'
+
+                licenses {
+                    license {
+                        name = 'MIT License'
+                        url = 'https://github.com/mysteriumnetwork/terms/blob/master/LICENSE'
+                    }
+                }
+                developers {
+                    developer {
+                        id = 'MysteriumTeam'
+                        name = 'Mysterium Team'
+                        email = 'core-services@mysterium.network'
+                        url = 'https://mysterium.network/about/team/'
+                        organization = 'Mysterium Network'
+                        organizationUrl = 'https://mysterium.network'
+                    }
+                }
+                scm {
+                    connection = 'https://github.com/mysteriumnetwork/terms.git'
+                    developerConnection = 'https://github.com/mysteriumnetwork/terms.git'
+                    url = 'https://github.com/mysteriumnetwork/terms'
+                }
+            }
+        }
+    }
+}
