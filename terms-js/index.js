@@ -112,7 +112,7 @@ module.exports = {
 ' - Terms of use for end users \n' + 
 ' - Privacy policy & no-logs pledge \n' + 
 ' \n' + 
-'**TERMS OF USE** \n' + 
+'##### TERMS OF USE  \n' + 
 ' \n' + 
 '**FOR END USERS** \n' + 
 ' \n' + 
@@ -243,7 +243,7 @@ module.exports = {
 ' \n' + 
 'This privacy policy (the “Privacy Policy”) informs you of our policies regarding the collection, use and disclosure of data when you use the Network and the choices you have associated with that data. This Privacy Policy applies only if and to the extent we process the data in relation to the Network.  \n' + 
 ' \n' + 
-'This Privacy Policy supplements our Terms of Use /link/ (“ToU”) and is an integral part of it. If any provisions of the Privacy Policy and the ToU cannot be read in any manner other than a one that produces an irreconcilable conflict between them, the provisions of this Privacy Policy shall prevail. Unless otherwise defined in this Privacy Policy, the terms used in this Privacy Policy have the same meanings as in our ToU. \n' + 
+'This Privacy Policy supplements our [Terms of Use](#TERMS-OF-USE) (“ToU”) and is an integral part of it. If any provisions of the Privacy Policy and the ToU cannot be read in any manner other than a one that produces an irreconcilable conflict between them, the provisions of this Privacy Policy shall prevail. Unless otherwise defined in this Privacy Policy, the terms used in this Privacy Policy have the same meanings as in our ToU. \n' + 
 ' \n' + 
 'A. NO-LOGS PLEDGE    \n' + 
 ' \n' + 
@@ -279,7 +279,7 @@ module.exports = {
 ' - Terms of use for exit nodes \n' + 
 ' - Privacy policy & no-logs pledge \n' + 
 ' \n' + 
-'**TERMS OF USE**  \n' + 
+'##### TERMS OF USE  \n' + 
 ' \n' + 
 '**FOR EXIT NODES** \n' + 
 ' \n' + 
@@ -431,7 +431,8 @@ module.exports = {
 ' \n' + 
 'This privacy policy (the “Privacy Policy”) informs you of our policies regarding the collection, use and disclosure of data when you use the Network and the choices you have associated with that data. This Privacy Policy applies only if and to the extent we process the data in relation to the Network.  \n' + 
 ' \n' + 
-'This Privacy Policy supplements our Terms of Use /link/ (“ToU”) and is an integral part of it. If any provisions of the Privacy Policy and the ToU cannot be read in any manner other than a one that produces an irreconcilable conflict between them, the provisions of this Privacy Policy shall prevail. Unless otherwise defined in this Privacy Policy, the terms used in this Privacy Policy have the same meanings as in our ToU. \n' + 
+'This Privacy Policy supplements our   \n' + 
+'[Terms of Use](#TERMS-OF-USE) (“ToU”) and is an integral part of it. If any provisions of the Privacy Policy and the ToU cannot be read in any manner other than a one that produces an irreconcilable conflict between them, the provisions of this Privacy Policy shall prevail. Unless otherwise defined in this Privacy Policy, the terms used in this Privacy Policy have the same meanings as in our ToU. \n' + 
 ' \n' + 
 'A. NO-LOGS PLEDGE    \n' + 
 ' \n' + 
