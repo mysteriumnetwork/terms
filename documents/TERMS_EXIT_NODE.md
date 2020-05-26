@@ -5,7 +5,7 @@
  - Terms of use for exit nodes
  - Privacy policy & no-logs pledge
 
-**TERMS OF USE** 
+##### TERMS OF USE 
 
 **FOR EXIT NODES**
 
@@ -157,7 +157,8 @@ Netsys Inc. ("us", "we", or "our") operates the Mysterium network (the “Networ
 
 This privacy policy (the “Privacy Policy”) informs you of our policies regarding the collection, use and disclosure of data when you use the Network and the choices you have associated with that data. This Privacy Policy applies only if and to the extent we process the data in relation to the Network. 
 
-This Privacy Policy supplements our Terms of Use /link/ (“ToU”) and is an integral part of it. If any provisions of the Privacy Policy and the ToU cannot be read in any manner other than a one that produces an irreconcilable conflict between them, the provisions of this Privacy Policy shall prevail. Unless otherwise defined in this Privacy Policy, the terms used in this Privacy Policy have the same meanings as in our ToU.
+This Privacy Policy supplements our  
+[Terms of Use](#TERMS-OF-USE) (“ToU”) and is an integral part of it. If any provisions of the Privacy Policy and the ToU cannot be read in any manner other than a one that produces an irreconcilable conflict between them, the provisions of this Privacy Policy shall prevail. Unless otherwise defined in this Privacy Policy, the terms used in this Privacy Policy have the same meanings as in our ToU.
 
 A. NO-LOGS PLEDGE   
 
