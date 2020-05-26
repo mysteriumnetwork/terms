@@ -269,7 +269,7 @@ module.exports = {
 ' \n' + 
 'D. CONTACT US \n' + 
 ' \n' + 
-' If you have any questions about this Privacy Policy, please contact us by email: privacy@mysterium.network \n' + 
+' If you have any questions about this Privacy Policy, please contact us by email: support@netsys.technology \n' + 
 ' \n',
 
     TermsExitNode: '**MYSTERIUM NETWORK OPEN ALPHA** \n' + 
@@ -458,7 +458,7 @@ module.exports = {
 ' \n' + 
 'D. CONTACT US \n' + 
 ' \n' + 
-' If you have any questions about this Privacy Policy, please contact us by email: privacy@mysterium.network \n' + 
+' If you have any questions about this Privacy Policy, please contact us by email: support@netsys.technology \n' + 
 ' \n' + 
 ' \n',
 
