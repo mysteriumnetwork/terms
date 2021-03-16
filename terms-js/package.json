@@ -1,7 +1,7 @@
 {
   "name": "@mysteriumnetwork/terms",
-  "version": "0.0.27",
-  "updatedAt": "2020-05-26",
+  "version": "0.0.28",
+  "updatedAt": "2021-03-16",
   "description": "Terms of use for Mysterium nodes",
   "main": "index.js",
   "files": [

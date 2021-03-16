@@ -44,7 +44,7 @@ module.exports = {
 '     \n' + 
 '-   have and provide your ETH (Ethereum) Wallet address where we can make the payments; \n' + 
 '     \n' + 
-'-   comply with node runner software terms & conditions at [https://mysterium.network/terms-conditions/](https://mysterium.network/terms-conditions/) \n' + 
+'-   comply with node runner software terms \u0026 conditions at [https://mysterium.network/terms-conditions/](https://mysterium.network/terms-conditions/) \n' + 
 '     \n' + 
 '-   have a residential IP (Datacenter IPs will be excluded); \n' + 
 '     \n' + 
@@ -101,16 +101,16 @@ module.exports = {
 '**Changes to Program Terms** \n' + 
 ' \n' + 
 'The Program Terms, including its terms, policies, conditions and disclaimers are subject to change or cancellation by us at any time, without any additional notice. As such, we may amend these Terms and/or its policies at any time. By continuing to participate in the Program after we post any such changes, you accept the Program Terms, as modified. \n' + 
-'\x3C!--stackedit_data: \n' + 
+'\u003C!--stackedit_data: \n' + 
 'eyJoaXN0b3J5IjpbMjU3MjM4NzY3LDg3OTMzMzExOV19 \n' + 
-'--\x3E \n',
+'--\u003E \n',
 
     TermsEndUser: '**MYSTERIUM NETWORK OPEN ALPHA**  \n' + 
 ' \n' + 
 '**This document includes:** \n' + 
 ' \n' + 
 ' - Terms of use for end users \n' + 
-' - Privacy policy & no-logs pledge \n' + 
+' - Privacy policy \u0026 no-logs pledge \n' + 
 ' \n' + 
 '##### TERMS OF USE  \n' + 
 ' \n' + 
@@ -235,7 +235,7 @@ module.exports = {
 ' \n' + 
 'You agree that these Terms and our rights hereunder may be assigned, in whole or in part, by us or our affiliate to any third party, at our sole discretion, including an assignment in connection with a merger, acquisition, reorganization or sale of substantially all of our assets, or otherwise, in whole or in part. You may not delegate, sublicense or assign your rights under these Terms. \n' + 
 ' \n' + 
-'**PRIVACY POLICY & NO-LOGS PLEDGE** \n' + 
+'**PRIVACY POLICY \u0026 NO-LOGS PLEDGE** \n' + 
 ' \n' + 
 'Effective date: May 22, 2020 \n' + 
 ' \n' + 
@@ -277,7 +277,7 @@ module.exports = {
 '**This document includes:** \n' + 
 ' \n' + 
 ' - Terms of use for exit nodes \n' + 
-' - Privacy policy & no-logs pledge \n' + 
+' - Privacy policy \u0026 no-logs pledge \n' + 
 ' \n' + 
 '##### TERMS OF USE  \n' + 
 ' \n' + 
@@ -423,7 +423,7 @@ module.exports = {
 ' \n' + 
 'You agree that these Terms and our rights hereunder may be assigned, in whole or in part, by us or our affiliate to any third party, at our sole discretion, including an assignment in connection with a merger, acquisition, reorganization or sale of substantially all of our assets, or otherwise, in whole or in part. You may not delegate, sublicense or assign your rights under these Terms. \n' + 
 ' \n' + 
-'**PRIVACY POLICY & NO-LOGS PLEDGE** \n' + 
+'**PRIVACY POLICY \u0026 NO-LOGS PLEDGE** \n' + 
 ' \n' + 
 'Effective date: May 22, 2020 \n' + 
 ' \n' + 
