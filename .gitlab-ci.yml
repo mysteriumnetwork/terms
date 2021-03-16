@@ -67,8 +67,7 @@ publish-java:
     GIT_CLONE_PATH: ""
   image:
     name: openjdk:8u282-slim
-  before_script:
-    - cd terms-java
   script:
+    - cd terms-java
     - ./gradlew clean build test
     - ./gradlew publishMavenJavaPublicationToMavenRepository

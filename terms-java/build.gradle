@@ -40,7 +40,7 @@ publishing {
             url 'https://maven.mysterium.network/releases'
             credentials {
                 username = 'releases'
-                password = System.getenv('MAVEN_TOKEN')
+                password = mavenToken
             }
         }
     }
@@ -49,7 +49,7 @@ publishing {
         mavenJava(MavenPublication) {
             groupId = 'network.mysterium'
             artifactId = 'terms'
-            version = System.getenv('NEXT_VERSION')
+            version = nextVersion
             from components.java
 
             pom {
