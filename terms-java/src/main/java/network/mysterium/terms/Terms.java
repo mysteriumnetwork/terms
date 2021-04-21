@@ -9,6 +9,7 @@ public class Terms {
     public static final String TERMS_END_USER = "TERMS_END_USER.md";
     public static final String TERMS_EXIT_NODE = "TERMS_EXIT_NODE.md";
     public static final String WARRANTY = "WARRANTY.md";
+    public static final String BUILD_PROPERTIES = "build.properties";
 
     public static String bountyPilotMD() {
         try {
@@ -40,6 +41,15 @@ public class Terms {
     public static String warrantyMD() {
         try {
             byte[] bytes = asBytes(WARRANTY);
+            return new String(bytes);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public static String version() {
+        try {
+            byte[] bytes = asBytes(BUILD_PROPERTIES);
             return new String(bytes);
         } catch (IOException e) {
             throw new RuntimeException(e);

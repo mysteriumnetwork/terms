@@ -8,6 +8,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 class TermsTest {
 
@@ -17,6 +18,7 @@ class TermsTest {
         assertEquals(read(Terms.TERMS_END_USER), Terms.endUserMD());
         assertEquals(read(Terms.TERMS_EXIT_NODE), Terms.exitNodeMD());
         assertEquals(read(Terms.WARRANTY), Terms.warrantyMD());
+        assertNotNull(Terms.version());
     }
 
     private String read(String fileName) throws Exception {
