@@ -29,10 +29,18 @@ sourceSets {
 }
 
 def mavenToken = System.getenv('MAVEN_TOKEN')
-if (!mavenToken) throw new GradleException('MAVEN_TOKEN not set')
-
 def nextVersion = System.getenv('NEXT_VERSION')
-if (!nextVersion) throw new GradleException('NEXT_VERSION not set')
+
+println("Next version: $nextVersion")
+println project.version
+
+processResources {
+    filesMatching('**/build.properties') {
+        filter {
+            it.replace('@project.version@', nextVersion ?: project.version)
+        }
+    }
+}
 
 publishing {
     repositories {
@@ -49,7 +57,7 @@ publishing {
         mavenJava(MavenPublication) {
             groupId = 'network.mysterium'
             artifactId = 'terms'
-            version = nextVersion
+            version = nextVersion ?: project.version
             from components.java
 
             pom {
