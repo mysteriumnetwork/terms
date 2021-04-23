@@ -95,7 +95,7 @@ func terms_bounty_pilotMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "TERMS_BOUNTY_PILOT.md", size: 6655, mode: os.FileMode(420), modTime: time.Unix(1618991251, 0)}
+	info := bindataFileInfo{name: "TERMS_BOUNTY_PILOT.md", size: 6655, mode: os.FileMode(420), modTime: time.Unix(1619174776, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -115,7 +115,7 @@ func terms_end_userMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "TERMS_END_USER.md", size: 18111, mode: os.FileMode(420), modTime: time.Unix(1618991251, 0)}
+	info := bindataFileInfo{name: "TERMS_END_USER.md", size: 18111, mode: os.FileMode(420), modTime: time.Unix(1619174776, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -135,7 +135,7 @@ func terms_exit_nodeMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "TERMS_EXIT_NODE.md", size: 19233, mode: os.FileMode(420), modTime: time.Unix(1618991251, 0)}
+	info := bindataFileInfo{name: "TERMS_EXIT_NODE.md", size: 19233, mode: os.FileMode(420), modTime: time.Unix(1619174776, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -155,7 +155,7 @@ func warrantyMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "WARRANTY.md", size: 550, mode: os.FileMode(420), modTime: time.Unix(1618991251, 0)}
+	info := bindataFileInfo{name: "WARRANTY.md", size: 550, mode: os.FileMode(420), modTime: time.Unix(1619174776, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
