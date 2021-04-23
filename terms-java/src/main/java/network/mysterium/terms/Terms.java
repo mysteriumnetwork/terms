@@ -2,6 +2,7 @@ package network.mysterium.terms;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.Properties;
 
 public class Terms {
 
@@ -49,8 +50,9 @@ public class Terms {
 
     public static String version() {
         try {
-            byte[] bytes = asBytes(BUILD_PROPERTIES);
-            return new String(bytes);
+            Properties properties = new Properties();
+            properties.load(resourceAsStream(BUILD_PROPERTIES));
+            return properties.getProperty("termsVersion");
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
@@ -58,9 +60,13 @@ public class Terms {
 
 
     private static byte[] asBytes(String fileName) throws IOException {
-        InputStream stream = Terms.class.getClassLoader().getResourceAsStream(fileName);
+        InputStream stream = resourceAsStream(fileName);
         byte[] bytes = new byte[stream.available()];
         stream.read(bytes);
         return bytes;
+    }
+
+    private static InputStream resourceAsStream(String fileName) {
+        return Terms.class.getClassLoader().getResourceAsStream(fileName);
     }
 }
