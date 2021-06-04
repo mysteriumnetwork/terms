@@ -105,7 +105,7 @@ module.exports = {
 'eyJoaXN0b3J5IjpbMjU3MjM4NzY3LDg3OTMzMzExOV19 \n' + 
 '--\u003E \n',
 
-    TermsEndUser: '**MYSTERIUM NETWORK OPEN ALPHA**  \n' + 
+    TermsEndUser: '**MYSTERIUM NETWORK BETA**  \n' + 
 ' \n' + 
 '**This document includes:** \n' + 
 ' \n' + 
@@ -118,7 +118,7 @@ module.exports = {
 ' \n' + 
 '**SHORT VERSION IN HUMAN LANGUAGE:** \n' + 
 ' \n' + 
-' - Mysterium Network is still in its development (alpha version) stage. We will do our best to develop it further, but we cannot guarantee this. \n' + 
+' - Mysterium Network is still in beta stage. We will do our best to develop it further, but we cannot guarantee this. \n' + 
 ' \n' + 
 ' - You cannot use or encourage or assist others to use the network in any way which violates any laws or rights of any party, including intellectual property rights.  \n' + 
 ' \n' + 
