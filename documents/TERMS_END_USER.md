@@ -94,11 +94,11 @@ IN ADDITION TO THE TERMS SET FORTH ABOVE NEITHER, WE, NOR OUR AFFILIATES OR CONT
 
 FORCE MAJEURE. NEITHER PARTY WILL BE RESPONSIBLE FOR ANY FAILURE OR DELAY IN PERFORMANCE DUE TO CIRCUMSTANCES BEYOND ITS REASONABLE CONTROL, INCLUDING, WITHOUT LIMITATION, ACTS OF GOD, WAR, RIOT, EMBARGOES, ACTS OF CIVIL OR MILITARY AUTHORITIES, FIRE, FLOODS, ACCIDENTS, SERVICE OUTAGES RESULTING FROM EQUIPMENT AND/OR SOFTWARE FAILURE AND/OR TELECOMMUNICATIONS FAILURES, POWER FAILURES, NETWORK FAILURES, FAILURES OF THIRD PARTY SERVICE PROVIDERS (INCLUDING PROVIDERS OF INTERNET SERVICES AND TELECOMMUNICATIONS). THE PARTY AFFECTED BY ANY SUCH EVENT SHALL NOTIFY THE OTHER PARTY WITHIN A MAXIMUM OF FIFTEEN (15) DAYS FROM ITS OCCURENCE. THE PERFORMANCE OF THIS AGREEMENT SHALL THEN BE SUSPENDED FOR AS LONG AS ANY SUCH EVENT SHALL PREVENT THE AFFECTED PARTY FROM PERFORMING ITS OBLIGATIONS UNDER THIS AGREEMENT.  
 
-10\. INDEMNIFICATION
+9\. INDEMNIFICATION
 
 You agree to defend, indemnify and hold harmless us, our affiliates and their respective directors, officers, employees and agents from and against all loss, claim, damage, expense or liability (including all reasonable attorneys’ fees and other expenses reasonably incurred in investigating, preparing or defending against litigation, commenced or threatened), incurred by the aggrieved party as a result of, or arising out of, or relating to (a) any misrepresentation or breach of any representation or warranty made by you, (b) any breach of these Terms by you, (c) your violation of the Applicable Law or any rights of another, including any intellectual property rights, or (c) any cause of action, suit or claim brought or made against us and arising out of or resulting from your use of the Network. 
 
-11\. TERMINATION
+10\. TERMINATION
 
 You may terminate the Terms at any time by ceasing your use of the Network and closing your account with us.
 
@@ -106,7 +106,7 @@ We may terminate these Terms at any time for any reason whatsoever, including wi
 
 Upon termination we may delete your data which is under our control.
 
-12\. MISCELLANEOUS
+11\. MISCELLANEOUS
 
 You agree to comply with all applicable export laws and restrictions and regulations and agree that you will not export, or allow the export or re-export of the Network or any part of it in violation of the Applicable Law.
 
