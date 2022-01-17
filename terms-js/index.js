@@ -105,7 +105,7 @@ module.exports = {
 'eyJoaXN0b3J5IjpbMjU3MjM4NzY3LDg3OTMzMzExOV19 \n' + 
 '--\u003E \n',
 
-    TermsEndUser: '**MYSTERIUM NETWORK BETA**  \n' + 
+    TermsEndUser: '**MYSTERIUM NETWORK**  \n' + 
 ' \n' + 
 '**This document includes:** \n' + 
 ' \n' + 
@@ -118,15 +118,13 @@ module.exports = {
 ' \n' + 
 '**SHORT VERSION IN HUMAN LANGUAGE:** \n' + 
 ' \n' + 
-' - Mysterium Network is still in beta stage. We will do our best to develop it further, but we cannot guarantee this. \n' + 
-' \n' + 
 ' - You cannot use or encourage or assist others to use the network in any way which violates any laws or rights of any party, including intellectual property rights.  \n' + 
 ' \n' + 
 ' - Your use of the network is at your own risk. We provide it to you “as is” without any warranties.  \n' + 
 ' \n' + 
 ' - You are responsible for all the content that you receive, distribute or otherwise transmit through the network.  \n' + 
 ' \n' + 
-' - You can use the network with our Mysterium software ([https://github.com/mysteriumnetwork/](https://github.com/mysteriumnetwork/)) or any other compatible software. \n' + 
+' - You can use the network with our Mysterium software ([https://github.com/mysteriumnetwork](https://github.com/mysteriumnetwork)) or any other compatible software. \n' + 
 ' \n' + 
 ' - In no event will we be liable for any damages which you may incur.  \n' + 
 ' \n' + 
@@ -136,11 +134,11 @@ module.exports = {
 ' \n' + 
 '1\\. ACCEPTANCE OF TERMS \n' + 
 ' \n' + 
-'These terms and conditions (the “Terms”) is a binding legal agreement between you and Netsys Inc. (“Mysterium Networks” or “we”) that governs your participation in the early open alpha testing program (the “Program”) of the Mysterium network (the “Network”).  \n' + 
+'These terms and conditions (the “Terms”) are a binding legal agreement between you and NetSys Inc. (“Mysterium Networks” or “we”) that governs your use of the Mysterium network (the “Network”). \n' + 
 ' \n' + 
-'Your enrolment and participation in the Program and access to and use of the Network is subject to these Terms. By participating in the Program or using the Network you are fully accepting the terms, conditions and disclaimers contained in this document and all policies and guidelines that are incorporated by reference. If you do not accept these terms and conditions you must immediately stop using the  Network. You shall not enroll into the Program or use the Network in contradiction with these Terms or any applicable law or regulation of the country or territory you originate from or reside in or any applicable jurisdiction (the “Applicable Law”). For the purposes of these Terms, the term “using the Network” means accessing, connecting to or utilizing the Network in any other way. \n' + 
+'Your use of the Network is subject to these Terms. By using the Network you are fully accepting the terms, conditions and disclaimers contained in this document and all policies and guidelines that are incorporated by reference. If you do not accept these terms and conditions you must immediately stop using the Network. You shall not use the Network in contradiction with these Terms or any applicable law or regulation of the country or territory you originate from or reside in or any applicable jurisdiction (the “Applicable Law”). For the purposes of these Terms, the term “using the Network” means accessing, connecting to or utilizing the Network in any other way. \n' + 
 ' \n' + 
-'You may not sign up for and participate in the Program (a) if you have not reached the age of majority in your territory of residence (in most cases, 18 to 21) or if you do not have the ability to form binding contracts under the Applicable law or (b) if you are not the owner of the device on which you use the Network.  \n' + 
+'You may not use the Network (a) if you have not reached the age of majority in your territory of residence (in most cases, 18 to 21) or if you do not have the ability to form binding contracts under the Applicable law or (b) if you are not the owner of the device on which you use the Network.  \n' + 
 ' \n' + 
 '2\\. CHANGED TERMS \n' + 
 ' \n' + 
@@ -152,27 +150,19 @@ module.exports = {
 ' \n' + 
 'The Network is not designed or intended to circumvent any access control or security measures and should not be used for such purposes. \n' + 
 ' \n' + 
-'4\\. OPEN ALPHA AND FEEDBACK \n' + 
-' \n' + 
-'The Network is still in its early development stage. The sole purpose of the Program is to obtain feedback on the performance of the Network and to identify its defects. You expressly acknowledge that the Network is a test product and may contain bugs, errors and other problems that could cause loss of data store in the platform, inconsistent performance and other failures including but not limited to systems crashes, interruptions and data loss. You are advised to use caution and not to rely in any way on the performance and functioning of the Network. The Network is made available to you free of charge and no warranty shall be provided for the Network. \n' + 
-' \n' + 
-'We do not guarantee that the Network will be developed to reach any subsequent development stage (e.g. release version) or that any subsequent versions will have the same or similar functionality and characteristics to the ones that the Network have.  \n' + 
-' \n' + 
-'To maintain and develop the Network we may collect limited and anonymized information and performance data. \n' + 
-' \n' + 
-'5\\. EQUIPMENT \n' + 
+'4\\. EQUIPMENT \n' + 
 ' \n' + 
 'You shall be responsible for obtaining and maintaining all hardware, software and other equipment needed for access to and use of the Network and all charges related thereto. Should you need any licenses, equipment or software to access and/or use the resources or services which are made conditional upon prior authorization, you shall be solely responsible for obtaining and maintaining such licenses, equipment and software. \n' + 
 ' \n' + 
-'As an option, you can use Mysterium software ([https://github.com/mysteriumnetwork/](https://github.com/mysteriumnetwork/)) to use the Network. \n' + 
+'As an option, you can use Mysterium software ([https://github.com/mysteriumnetwork](https://github.com/mysteriumnetwork)) to use the Network. \n' + 
 ' \n' + 
-'6\\. RESTRICTED CONDUCT \n' + 
+'5\\. RESTRICTED CONDUCT \n' + 
 ' \n' + 
-'We do not encourage, support and contribute to illegal activities and we are resolved to keep the Network operating legally.   \n' + 
+'We do not encourage, support and contribute to illegal activities and we are resolved to keep the Network operating legally. \n' + 
 ' \n' + 
-'You shall use the Network for any purpose that is unlawful or prohibited by these Terms or any Applicable Law.  \n' + 
+'You shall use the Network for any purpose that is unlawful or prohibited by these Terms or any Applicable Law. \n' + 
 ' \n' + 
-'You shall not request, receive, post, upload, download, display, distribute, transmit or make available through the Network (“Communicate”) any information and material which violates or infringes in any way upon the rights of others, which is unlawful, threatening, abusive, defamatory, invasive of privacy or publicity rights, which encourages conduct that would constitute a criminal offense, give rise to civil liability or otherwise violate the Applicable Law.  \n' + 
+'You shall not request, receive, post, upload, download, display, distribute, transmit or make available through the Network (“Communicate”) any information and material which violates or infringes in any way upon the rights of others, which is unlawful, threatening, abusive, defamatory, invasive of privacy or publicity rights, which encourages conduct that would constitute a criminal offense, give rise to civil liability or otherwise violate the Applicable Law. \n' + 
 ' \n' + 
 'You may not use or encourage or assist others to use the Network in any manner that could damage, disable, overburden, or impair the servers and other resources of Network or of the Nodes, or interfere with any third party’s use of the Network. You may not attempt to gain unauthorized access to any aspect of the Network or to information for which you have not been granted access. \n' + 
 ' \n' + 
@@ -189,55 +179,54 @@ module.exports = {
 ' - connecting to the Network any devices, software and/or hardware which does or may do any of the above; \n' + 
 ' - any other activities that are against the Applicable Law, and/or any other activities that are not compatible with the principles of democracy, freedom of speech, freedom of expression, and human rights. \n' + 
 ' \n' + 
-'7\\. YOUR ID AND SECURITY \n' + 
+'6\\. YOUR ID AND SECURITY \n' + 
 ' \n' + 
-'An ID and a private key (jointly, the “ID Data”) will be automatically created for your when you use the Network for the first time. You are entirely responsible for maintaining the confidentiality of your ID Data. Furthermore, you are entirely responsible for any activities that occur under your ID Data. You agree to notify us immediately of any unauthorized use of your account or any other breach of security. We will not be liable for any loss that you may incur as a result of someone else using your ID Data, either with or without your knowledge. However, you could be held liable for losses incurred by us or another party due to someone else using your account. You may not use anyone else\'s ID Data at any time, without the permission of the account holder.  \n' + 
+'An ID and a private key (jointly, the “ID Data”) will be automatically created for you when you use the Network for the first time. You are entirely responsible for maintaining the confidentiality of your ID Data. Furthermore, you are entirely responsible for any activities that occur under your ID Data. You agree to notify us immediately of any unauthorized use of your account or any other breach of security. We will not be liable for any loss that you may incur as a result of someone else using your ID Data, either with or without your knowledge. However, you could be held liable for losses incurred by us or another party due to someone else using your account. You may not use anyone else\'s ID Data at any time, without the permission of the account holder.   \n' + 
 ' \n' + 
-'8\\. COPYRIGHT NOTICE  \n' + 
+'7\\. COPYRIGHT NOTICE  \n' + 
 ' \n' + 
 'Our logos are our trademarks. All rights reserved. All other trademarks appearing on the Network are the property of their respective owners.  \n' + 
 ' \n' + 
-'9\\. DISCLAIMER OF WARRANTY; LIMITATION OF LIABILITY \n' + 
+'8\\. DISCLAIMER OF WARRANTY; LIMITATION OF LIABILITY \n' + 
 ' \n' + 
-'YOU EXPRESSLY AGREE THAT USE OF THE NETWORK IS AT YOUR SOLE RISK. NEITHER WE, OUR AFFILIATES NOR ANY OF THEIR RESPECTIVE EMPLOYEES, AGENTS, THIRD PARTY CONTENT PROVIDERS OR LICENSORS WARRANT THAT THE NETWORK WILL BE UNINTERRUPTED OR ERROR FREE; NOR DO THEY MAKE ANY WARRANTY AS TO THE RESULTS THAT MAY BE OBTAINED FROM USE OF THE NETWORK, OR AS TO THE ACCURACY, RELIABILITY OR CONTENT OF ANY INFORMATION, SERVICE, OR MERCHANDISE PROVIDED THROUGH THE NETWORK.  \n' + 
+'YOU EXPRESSLY AGREE THAT USE OF THE NETWORK IS AT YOUR SOLE RISK. NEITHER WE, OUR AFFILIATES NOR ANY OF THEIR RESPECTIVE EMPLOYEES, AGENTS, THIRD PARTY CONTENT PROVIDERS OR LICENSORS WARRANT THAT THE NETWORK WILL BE UNINTERRUPTED OR ERROR FREE; NOR DO THEY MAKE ANY WARRANTY AS TO THE RESULTS THAT MAY BE OBTAINED FROM USE OF THE NETWORK, OR AS TO THE ACCURACY, RELIABILITY OR CONTENT OF ANY INFORMATION, SERVICE, OR MERCHANDISE PROVIDED THROUGH THE NETWORK. \n' + 
 ' \n' + 
-'THE NETWORK IS PROVIDED ON AN \"AS IS\" BASIS WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, WARRANTIES OF TITLE OR IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE, OTHER THAN THOSE WARRANTIES WHICH ARE IMPLIED BY AND INCAPABLE OF EXCLUSION, RESTRICTION OR MODIFICATION UNDER THE LAWS APPLICABLE TO THIS AGREEMENT.  \n' + 
+'THE NETWORK IS PROVIDED ON AN \"AS IS\" BASIS WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, WARRANTIES OF TITLE OR IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE, OTHER THAN THOSE WARRANTIES WHICH ARE IMPLIED BY AND INCAPABLE OF EXCLUSION, RESTRICTION OR MODIFICATION UNDER THE LAWS APPLICABLE TO THIS AGREEMENT. \n' + 
 ' \n' + 
-'THIS DISCLAIMER OF LIABILITY APPLIES TO ANY DAMAGES OR INJURY CAUSED BY ANY FAILURE OF PERFORMANCE, ERROR, OMISSION, INTERRUPTION, DELETION, DEFECT, DELAY IN OPERATION OR TRANSMISSION, COMPUTER VIRUS, COMMUNICATION LINE FAILURE, THEFT OR DESTRUCTION OR UNAUTHORIZED ACCESS TO, ALTERATION OF, OR USE OF RECORD, WHETHER FOR BREACH OF CONTRACT, TORTIOUS BEHAVIOR, NEGLIGENCE, OR UNDER ANY OTHER CAUSE OF ACTION. YOU SPECIFICALLY ACKNOWLEDGE THAT WE IS NOT LIABLE FOR THE DEFAMATORY, OFFENSIVE OR ILLEGAL CONDUCT OF OTHER USERS OR THIRD-PARTIES AND THAT THE RISK OF INJURY FROM THE FOREGOING RESTS ENTIRELY WITH YOU.  \n' + 
+'THIS DISCLAIMER OF LIABILITY APPLIES TO ANY DAMAGES OR INJURY CAUSED BY ANY FAILURE OF PERFORMANCE, ERROR, OMISSION, INTERRUPTION, DELETION, DEFECT, DELAY IN OPERATION OR TRANSMISSION, COMPUTER VIRUS, COMMUNICATION LINE FAILURE, THEFT OR DESTRUCTION OR UNAUTHORIZED ACCESS TO, ALTERATION OF, OR USE OF RECORD, WHETHER FOR BREACH OF CONTRACT, TORTIOUS BEHAVIOR, NEGLIGENCE, OR UNDER ANY OTHER CAUSE OF ACTION. YOU SPECIFICALLY ACKNOWLEDGE THAT WE IS NOT LIABLE FOR THE DEFAMATORY, OFFENSIVE OR ILLEGAL CONDUCT OF OTHER USERS OR THIRD-PARTIES AND THAT THE RISK OF INJURY FROM THE FOREGOING RESTS ENTIRELY WITH YOU. \n' + 
 ' \n' + 
-'IN NO EVENT WILL WE, OR ANY PERSON OR ENTITY INVOLVED IN CREATING, DEVELOPING OR MAINTAINING THE NETWORK, BE LIABLE FOR ANY DAMAGES, INCLUDING, WITHOUT LIMITATION, DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR PUNITIVE DAMAGES ARISING OUT OF THE USE OF OR INABILITY TO USE THE NETWORK.  \n' + 
+'IN NO EVENT WILL WE, OR ANY PERSON OR ENTITY INVOLVED IN CREATING, DEVELOPING OR MAINTAINING THE NETWORK, BE LIABLE FOR ANY DAMAGES, INCLUDING, WITHOUT LIMITATION, DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR PUNITIVE DAMAGES ARISING OUT OF THE USE OF OR INABILITY TO USE THE NETWORK. \n' + 
 ' \n' + 
-'IN ADDITION TO THE TERMS SET FORTH ABOVE NEITHER, WE, NOR OUR AFFILIATES OR CONTENT PARTNERS SHALL BE LIABLE REGARDLESS OF THE CAUSE OR DURATION, FOR ANY ERRORS, INACCURACIES, OMISSIONS, OR OTHER DEFECTS IN, OR UNTIMELINESS OR UNAUTHENTICITY OF, THE INFORMATION CONTAINED WITHIN THE NETWORK, OR FOR ANY DELAY OR INTERRUPTION IN THE TRANSMISSION THEREOF TO YOU, OR FOR ANY CLAIMS OR LOSSES ARISING THEREFROM OR OCCASIONED THEREBY. NONE OF THE FOREGOING PARTIES SHALL BE LIABLE FOR ANY THIRD-PARTY CLAIMS OR LOSSES OF ANY NATURE, INCLUDING, BUT NOT LIMITED TO, LOST PROFITS, PUNITIVE OR CONSEQUENTIAL DAMAGES.  \n' + 
+'IN ADDITION TO THE TERMS SET FORTH ABOVE NEITHER, WE, NOR OUR AFFILIATES OR CONTENT PARTNERS SHALL BE LIABLE REGARDLESS OF THE CAUSE OR DURATION, FOR ANY ERRORS, INACCURACIES, OMISSIONS, OR OTHER DEFECTS IN, OR UNTIMELINESS OR UNAUTHENTICITY OF, THE INFORMATION CONTAINED WITHIN THE NETWORK, OR FOR ANY DELAY OR INTERRUPTION IN THE TRANSMISSION THEREOF TO YOU, OR FOR ANY CLAIMS OR LOSSES ARISING THEREFROM OR OCCASIONED THEREBY. NONE OF THE FOREGOING PARTIES SHALL BE LIABLE FOR ANY THIRD-PARTY CLAIMS OR LOSSES OF ANY NATURE, INCLUDING, BUT NOT LIMITED TO, LOST PROFITS, PUNITIVE OR CONSEQUENTIAL DAMAGES. \n' + 
 ' \n' + 
-'FORCE MAJEURE. NEITHER PARTY WILL BE RESPONSIBLE FOR ANY FAILURE OR DELAY IN PERFORMANCE DUE TO CIRCUMSTANCES BEYOND ITS REASONABLE CONTROL, INCLUDING, WITHOUT LIMITATION, ACTS OF GOD, WAR, RIOT, EMBARGOES, ACTS OF CIVIL OR MILITARY AUTHORITIES, FIRE, FLOODS, ACCIDENTS, SERVICE OUTAGES RESULTING FROM EQUIPMENT AND/OR SOFTWARE FAILURE AND/OR TELECOMMUNICATIONS FAILURES, POWER FAILURES, NETWORK FAILURES, FAILURES OF THIRD PARTY SERVICE PROVIDERS (INCLUDING PROVIDERS OF INTERNET SERVICES AND TELECOMMUNICATIONS). THE PARTY AFFECTED BY ANY SUCH EVENT SHALL NOTIFY THE OTHER PARTY WITHIN A MAXIMUM OF FIFTEEN (15) DAYS FROM ITS OCCURENCE. THE PERFORMANCE OF THS AGREEMENT SHALL THEN BE SUSPENDED FOR AS LONG AS ANY SUCH EVENT SHALL PREVENT THE AFFECTED PARTY FROM PERFORMING ITS OBLIGATIONS UNDER THIS AGREEMENT.  \n' + 
+'FORCE MAJEURE. NEITHER PARTY WILL BE RESPONSIBLE FOR ANY FAILURE OR DELAY IN PERFORMANCE DUE TO CIRCUMSTANCES BEYOND ITS REASONABLE CONTROL, INCLUDING, WITHOUT LIMITATION, ACTS OF GOD, WAR, RIOT, EMBARGOES, ACTS OF CIVIL OR MILITARY AUTHORITIES, FIRE, FLOODS, ACCIDENTS, SERVICE OUTAGES RESULTING FROM EQUIPMENT AND/OR SOFTWARE FAILURE AND/OR TELECOMMUNICATIONS FAILURES, POWER FAILURES, NETWORK FAILURES, FAILURES OF THIRD PARTY SERVICE PROVIDERS (INCLUDING PROVIDERS OF INTERNET SERVICES AND TELECOMMUNICATIONS). THE PARTY AFFECTED BY ANY SUCH EVENT SHALL NOTIFY THE OTHER PARTY WITHIN A MAXIMUM OF FIFTEEN (15) DAYS FROM ITS OCCURENCE. THE PERFORMANCE OF THIS AGREEMENT SHALL THEN BE SUSPENDED FOR AS LONG AS ANY SUCH EVENT SHALL PREVENT THE AFFECTED PARTY FROM PERFORMING ITS OBLIGATIONS UNDER THIS AGREEMENT.   \n' + 
 ' \n' + 
-'10\\. INDEMNIFICATION \n' + 
+'9\\. INDEMNIFICATION \n' + 
 ' \n' + 
 'You agree to defend, indemnify and hold harmless us, our affiliates and their respective directors, officers, employees and agents from and against all loss, claim, damage, expense or liability (including all reasonable attorneys’ fees and other expenses reasonably incurred in investigating, preparing or defending against litigation, commenced or threatened), incurred by the aggrieved party as a result of, or arising out of, or relating to (a) any misrepresentation or breach of any representation or warranty made by you, (b) any breach of these Terms by you, (c) your violation of the Applicable Law or any rights of another, including any intellectual property rights, or (c) any cause of action, suit or claim brought or made against us and arising out of or resulting from your use of the Network.  \n' + 
 ' \n' + 
-'11\\. TERMINATION \n' + 
+'10\\. TERMINATION \n' + 
 ' \n' + 
-'You may terminate the Terms at any time by ceasing your use of the Network and closing your account with us.  \n' + 
+'You may terminate the Terms at any time by ceasing your use of the Network and closing your account with us. \n' + 
 ' \n' + 
-'We may terminate these Terms at any time for any reason whatsoever, including without limitation if you breach the Terms or the Applicable Law.  \n' + 
+'We may terminate these Terms at any time for any reason whatsoever, including without limitation if you breach the Terms or the Applicable Law. \n' + 
 ' \n' + 
-'Upon termination we may delete your data which is under our control.  \n' + 
+'Upon termination we may delete your data which is under our control. \n' + 
 ' \n' + 
-'12\\. MISCELLANEOUS \n' + 
+'11\\. MISCELLANEOUS \n' + 
 ' \n' + 
 'You agree to comply with all applicable export laws and restrictions and regulations and agree that you will not export, or allow the export or re-export of the Network or any part of it in violation of the Applicable Law. \n' + 
 ' \n' + 
-'The Terms constitute the entire agreement of the parties with respect to the subject matter hereof, and supersede all previous written or oral agreements between the parties with respect to such subject matter. This Agreement shall be construed in accordance with the laws of the Republic of Panama without regard to its conflict of laws rules.  \n' + 
+'The Terms constitute the entire agreement of the parties with respect to the subject matter hereof, and supersede all previous written or oral agreements between the parties with respect to such subject matter. This Agreement shall be construed in accordance with the laws of the Republic of Panama without regard to its conflict of laws rules. \n' + 
 ' \n' + 
 'You agree that any legal action arising out of or relating to these Terms shall be filed exclusively in the competent courts of the Republic of Panama. \n' + 
-' \n' + 
-'No waiver by either party of any breach or default hereunder shall be deemed to be a waiver of any preceding or subsequent breach or default. The section headings used herein are for convenience only and shall not be given any legal importance.  \n' + 
+'No waiver by either party of any breach or default hereunder shall be deemed to be a waiver of any preceding or subsequent breach or default. The section headings used herein are for convenience only and shall not be given any legal importance. \n' + 
 ' \n' + 
 'You agree that these Terms and our rights hereunder may be assigned, in whole or in part, by us or our affiliate to any third party, at our sole discretion, including an assignment in connection with a merger, acquisition, reorganization or sale of substantially all of our assets, or otherwise, in whole or in part. You may not delegate, sublicense or assign your rights under these Terms. \n' + 
 ' \n' + 
 '**PRIVACY POLICY \u0026 NO-LOGS PLEDGE** \n' + 
 ' \n' + 
-'Effective date: May 22, 2020 \n' + 
+'Effective date: January 18, 2022 \n' + 
 ' \n' + 
 'Netsys Inc. (\"us\", \"we\", or \"our\") operates the Mysterium network (the “Network”).  \n' + 
 ' \n' + 
@@ -247,7 +236,7 @@ module.exports = {
 ' \n' + 
 'A. NO-LOGS PLEDGE    \n' + 
 ' \n' + 
-'We will not collect any information or store any logs about your browsing activity, queries, data destinations, IP addresses or timestamps. We are based in a jurisdiction (Panama) which laws do not require us to retain any of such data. The only information we collect in connection to your use of the Network is the information listed in this Privacy Policy below. \n' + 
+'We will not collect any information or store any logs about your browsing activity (including queries, data destinations, IP addresses or timestamps). We are based in a jurisdiction (Panama) which laws do not require us to retain any of such data. The only information we collect in connection to your use of the Network is the information listed in this Privacy Policy below. \n' + 
 ' \n' + 
 'Additionally, as we provide the Network by creating virtual tunnels through one or more connections to other users of the Network (i.e. the Nodes, as defined in the ToU) and by using their equipment and resources to route you to your destination, it is not technically possible for us monitor your activities in the Network. \n' + 
 ' \n' + 
@@ -269,7 +258,7 @@ module.exports = {
 ' \n' + 
 'D. CONTACT US \n' + 
 ' \n' + 
-' If you have any questions about this Privacy Policy, please contact us by email: support@netsys.technology \n' + 
+'If you have any questions about this Privacy Policy, please contact us by email: support@netsys.technology \n' + 
 ' \n',
 
     TermsExitNode: '**This document includes:** \n' + 
@@ -413,7 +402,7 @@ module.exports = {
 ' \n' + 
 '**PRIVACY POLICY \u0026 NO-LOGS PLEDGE** \n' + 
 ' \n' + 
-'Effective date: November 22, 2021 \n' + 
+'Effective date: January 18, 2022 \n' + 
 ' \n' + 
 'Netsys Inc. (\"us\", \"we\", or \"our\") operates the Mysterium network (the “Network”). \n' + 
 ' \n' + 
@@ -423,7 +412,7 @@ module.exports = {
 ' \n' + 
 'A. NO-LOGS PLEDGE    \n' + 
 ' \n' + 
-'We will not collect any information or store any logs about your browsing activity, queries, data destinations, IP addresses or timestamps. We are based in a jurisdiction (Panama) which laws do not require us to retain any of such data. The only information we collect in connection to your use of the Network is the information listed in this Privacy Policy below. \n' + 
+'We will not collect any information or store any logs about your browsing activity (including queries, data destinations, IP addresses or timestamps). We are based in a jurisdiction (Panama) which laws do not require us to retain any of such data. The only information we collect in connection to your use of the Network is the information listed in this Privacy Policy below. \n' + 
 ' \n' + 
 'Additionally, as we provide the Network by creating virtual tunnels through one or more connections to other users of the Network (i.e. the Nodes, as defined in the ToU) and by using their equipment and resources to route you to your destination, it is not technically possible for us monitor your activities in the Network. \n' + 
 'In addition to our no-logs pledge this creates an additional layer of privacy for you. \n' + 
