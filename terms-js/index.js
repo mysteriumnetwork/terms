@@ -448,7 +448,7 @@ module.exports = {
 'If you have any questions about this Privacy Policy, please contact us by email: support@netsys.technology \n' + 
 ' \n',
 
-    TermsExitNodeShort: ' \n' + 
+    TermsNodeShort: ' \n' + 
 '                            MYSTERIUM NETWORK \n' + 
 '                               TERMS OF USE \n' + 
 '                           FOR MYSTERIUM NODES \n' + 
