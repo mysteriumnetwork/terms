@@ -118,7 +118,19 @@ FORCE MAJEURE. NEITHER PARTY WILL BE RESPONSIBLE FOR ANY FAILURE OR DELAY IN PER
 
 You agree to defend, indemnify and hold harmless us, our affiliates and their respective directors, officers, employees and agents from and against all claims and expenses, including attorneys' fees, arising out of the use of the Network by you or your account.  
 
-12\. TERMINATION
+12\. PAYMENTS
+
+Each Node has to register in the Network by paying the Polygon blockchain registration fee (the “Fee”). The Fee amount may vary depending on the Polygon blockchain congestion at the registration time. There are two options to pay the Fee:
+ - in crypto currency MYST by transferring the Fee directly to Node's payment channel;
+ - using your credit card.
+
+You may ask for a refund in case registration failed and you could not get your Node registered on the Network. Refunds are generally processed within seven (7) days, and are made to the original form of payment used for purchase. All refunds are sent in USD and therefore the refund amount could differ from the amount originally paid in local currency. 
+
+Request for a refund shall be sent to the following email support@netsys.technology.
+
+Credit card payments are processed through our payment services provider and payment processing partner and collected by our payment agent BlockDev AG, whose registered office is at Alpenstrasse 14, 6300 Zug, Switzerland.
+
+13\. TERMINATION
 
 You may terminate the Terms at any time by ceasing your use of the Network and closing your account with us.
 
@@ -126,7 +138,7 @@ We may terminate these Terms at any time for any reason whatsoever, including wi
 
 Upon termination we may delete your data which is under our control. 
 
-13\. MISCELLANEOUS
+14\. MISCELLANEOUS
 
 You agree to comply with all applicable export laws and restrictions and regulations and agree that you will not export, or allow the export or re-export of the Network or any part of it in violation of the Applicable Law.
 
