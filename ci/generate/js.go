@@ -60,7 +60,7 @@ func GenerateJs() error {
 	}
 
 	params := &templateParams{
-		BuildVersion: nextJSVersion(),
+		BuildVersion: NextVersionUnPrefixed(),
 		UpdatedAt:    time.Now().Format("2006-01-02"),
 		Documents:    variables,
 	}
@@ -82,14 +82,6 @@ func GenerateJs() error {
 	}
 
 	return nil
-}
-
-func nextJSVersion() string {
-	version := cienv.Str(env.NextVersion)
-	if strings.HasPrefix(version, "v") {
-		return version[1:len(version)]
-	}
-	return version
 }
 
 func generateJsMultiline(in string) string {

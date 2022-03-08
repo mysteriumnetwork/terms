@@ -5,6 +5,8 @@
 package generate
 
 import (
+	cienv "github.com/mysteriumnetwork/go-ci/env"
+	"github.com/mysteriumnetwork/terms/ci/env"
 	"io/ioutil"
 	"os"
 	"regexp"
@@ -30,4 +32,14 @@ func GetDocumentPaths(dir string) ([]os.FileInfo, error) {
 	}
 
 	return files, nil
+}
+
+func NextVersionUnPrefixed() string {
+	version := cienv.Str(env.NextVersion)
+
+	if strings.HasPrefix(version, "v") {
+		return version[1:]
+	}
+
+	return version
 }

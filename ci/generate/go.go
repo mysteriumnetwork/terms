@@ -12,6 +12,8 @@ import (
 	"github.com/mysteriumnetwork/terms/terms-go"
 )
 
+const TermsVersionVarName = "TermsVersion"
+
 func GenerateGoVariables() error {
 	docs, err := GetDocumentPaths("../" + terms.DocumentDirectory)
 	if err != nil {
@@ -22,6 +24,8 @@ func GenerateGoVariables() error {
 	for _, doc := range docs {
 		vars += "\n\t" + FileNameToVariableName(doc.Name()) + ` = MustAsset("` + doc.Name() + `")`
 	}
+
+	vars += "\n\t" + TermsVersionVarName + " = " + `"` + NextVersionUnPrefixed() + `"`
 	str := `package terms
 
 var (` + vars + `

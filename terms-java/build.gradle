@@ -29,7 +29,7 @@ sourceSets {
 }
 
 def mavenToken = System.getenv('MAVEN_TOKEN')
-def nextVersion = System.getenv('NEXT_VERSION')
+def nextVersion = System.getenv('NEXT_VERSION').replace('v', '')
 
 println("Next version: $nextVersion")
 println project.version
