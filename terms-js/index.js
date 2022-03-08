@@ -448,6 +448,34 @@ module.exports = {
 'If you have any questions about this Privacy Policy, please contact us by email: support@netsys.technology \n' + 
 ' \n',
 
+    TermsExitNodeShort: ' \n' + 
+'                            MYSTERIUM NETWORK \n' + 
+'                               TERMS OF USE \n' + 
+'                           FOR MYSTERIUM NODES \n' + 
+' \n' + 
+'SHORT VERSION IN HUMAN LANGUAGE FOR EXIT NODE: \n' + 
+'- You will join our network and act as an exit node for others who will use your hardware and internet traffic to access internet resources. \n' + 
+'- We strive to protect you from any legal liability and believe that you should not be liable for running an exit node, but we cannot guarantee that you might not face it. \n' + 
+'- You cannot use or encourage or assist others to use the network in any way which violates any laws or rights of any party, including intellectual property rights. \n' + 
+'- You can monitor data which passes through your equipment only to whitelist the exit destinations for outgoing traffic. \n' + 
+'- You can use the network with our Mysterium software ([https://github.com/mysteriumnetwork](https://github.com/mysteriumnetwork)) or any other compatible software. \n' + 
+'- Your use of the network is at your own risk. We provide it to you “as is” without any warranties. \n' + 
+'- In no event will we be liable for any damages which you may incur. \n' + 
+'- We recommend that you read the full version below to get acquainted with all of the terms and conditions. \n' + 
+' \n' + 
+'SHORT VERSION IN HUMAN LANGUAGE FOR END USER: \n' + 
+'- You cannot use or encourage or assist others to use the network in any way which violates any laws or rights of any party, including intellectual property rights. \n' + 
+'- Your use of the network is at your own risk. We provide it to you “as is” without any warranties. \n' + 
+'- You are responsible for all the content that you receive, distribute or otherwise transmit through the network. \n' + 
+'- You can use the network with our Mysterium software ([https://github.com/mysteriumnetwork](https://github.com/mysteriumnetwork)) or any other compatible software. \n' + 
+'- In no event will we be liable for any damages which you may incur. \n' + 
+'- We recommend you to read the full version bellow to get acquainted with all of the terms and conditions. \n' + 
+' \n' + 
+'We recommend that you read the full versions below to get acquainted \n' + 
+'with all of the terms and conditions available here: \n' + 
+'https://github.com/mysteriumnetwork/terms/blob/master/documents/TERMS_EXIT_NODE.md \n' + 
+'https://github.com/mysteriumnetwork/terms/blob/master/documents/TERMS_END_USER.md \n',
+
     Warranty: 'THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY \n' + 
 'APPLICABLE LAW.  EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT \n' + 
 'HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM \"AS IS\" WITHOUT WARRANTY \n' + 
