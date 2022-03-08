@@ -5,6 +5,7 @@
 package env
 
 import (
+	"fmt"
 	"strconv"
 	"strings"
 
@@ -48,6 +49,10 @@ func NextTag() (string, error) {
 	next, err := nextTag(latest.TagName)
 	if err != nil {
 		return "", errors.Wrap(err, "could not calculate next tag")
+	}
+
+	if !strings.HasPrefix(next, "v") {
+		return fmt.Sprintf("v%s", next), nil
 	}
 
 	return next, nil
