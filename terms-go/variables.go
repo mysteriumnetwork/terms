@@ -6,5 +6,5 @@ var (
 	TermsExitNode = MustAsset("TERMS_EXIT_NODE.md")
 	TermsNodeShort = MustAsset("TERMS_NODE_SHORT.md")
 	Warranty = MustAsset("WARRANTY.md")
-	TermsVersion = "0.0.40"
+	TermsVersion = "0.0.41"
 )

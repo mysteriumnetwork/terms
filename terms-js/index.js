@@ -385,7 +385,7 @@ module.exports = {
 ' \n' + 
 'Each Node has to register in the Network by paying the Polygon blockchain registration fee (the “Fee”). The Fee amount may vary depending on the Polygon blockchain congestion at the registration time. There are two options to pay the Fee: \n' + 
 ' - in crypto currency MYST by transferring the Fee directly to Node\'s payment channel; \n' + 
-' - using your credit card. \n' + 
+' - using PayPal or your credit card. \n' + 
 ' \n' + 
 'You may ask for a refund in case registration failed and you could not get your Node registered on the Network. Refunds are generally processed within seven (7) days, and are made to the original form of payment used for purchase. All refunds are sent in USD and therefore the refund amount could differ from the amount originally paid in local currency.  \n' + 
 ' \n' + 
@@ -413,8 +413,6 @@ module.exports = {
 'You agree that these Terms and our rights hereunder may be assigned, in whole or in part, by us or our affiliate to any third party, at our sole discretion, including an assignment in connection with a merger, acquisition, reorganization or sale of substantially all of our assets, or otherwise, in whole or in part. You may not delegate, sublicense or assign your rights under these Terms. \n' + 
 ' \n' + 
 '**PRIVACY POLICY \u0026 NO-LOGS PLEDGE** \n' + 
-' \n' + 
-'Effective date: January 18, 2022 \n' + 
 ' \n' + 
 'Netsys Inc. (\"us\", \"we\", or \"our\") operates the Mysterium network (the “Network”). \n' + 
 ' \n' + 
