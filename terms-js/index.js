@@ -103,7 +103,8 @@ module.exports = {
 'The Program Terms, including its terms, policies, conditions and disclaimers are subject to change or cancellation by us at any time, without any additional notice. As such, we may amend these Terms and/or its policies at any time. By continuing to participate in the Program after we post any such changes, you accept the Program Terms, as modified. \n' + 
 '\u003C!--stackedit_data: \n' + 
 'eyJoaXN0b3J5IjpbMjU3MjM4NzY3LDg3OTMzMzExOV19 \n' + 
-'--\u003E \n',
+'--\u003E \n' + 
+' \n',
 
     TermsEndUser: '**MYSTERIUM NETWORK**  \n' + 
 ' \n' + 
