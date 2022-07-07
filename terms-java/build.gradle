@@ -1,6 +1,7 @@
 plugins {
     id 'java'
     id 'maven-publish'
+    id 'signing'
 }
 
 group 'network.mysterium'
@@ -45,10 +46,10 @@ processResources {
 publishing {
     repositories {
         maven {
-            url 'https://maven.mysterium.network/releases'
+            url 'https://oss.sonatype.org/service/local/staging/deploy/maven2/'
             credentials {
-                username = 'releases'
-                password = mavenToken
+                username = "${System.env.MAVEN_USER}"
+                password = "${System.env.MAVEN_PASS}"
             }
         }
     }
@@ -89,4 +90,9 @@ publishing {
             }
         }
     }
+}
+
+signing {
+    useGpgCmd()
+    sign publishing.publications.mavenJava
 }
