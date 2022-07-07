@@ -5,20 +5,20 @@
 package generate
 
 import (
-	cienv "github.com/mysteriumnetwork/go-ci/env"
+	"github.com/mysteriumnetwork/go-ci/env"
 	mgit "github.com/mysteriumnetwork/go-ci/git"
-	env "github.com/mysteriumnetwork/terms/ci/env"
+	"github.com/mysteriumnetwork/terms/ci/buildenv"
 	"github.com/pkg/errors"
 )
 
-// Commits and pushes generated files
+// CommitGenerated commits and pushes generated files.
 func CommitGenerated() error {
-	err := cienv.EnsureEnvVars(cienv.GithubOwner, cienv.GithubRepository, cienv.GithubAPIToken, env.NextVersion)
+	err := env.EnsureEnvVars(env.GithubOwner, env.GithubRepository, env.GithubAPIToken, buildenv.NextVersion)
 	if err != nil {
 		return err
 	}
 
-	git := mgit.NewCommiter(cienv.Str(cienv.GithubAPIToken))
+	git := mgit.NewCommiter(env.Str(env.GithubAPIToken))
 
 	err = git.Checkout(&mgit.CheckoutOptions{
 		BranchName: "master",
@@ -29,7 +29,6 @@ func CommitGenerated() error {
 	}
 
 	_, err = git.Commit("Update terms packages [skip ci]",
-		"terms-go/terms_bindata.go",
 		"terms-go/variables.go",
 		"terms-js/package.json",
 		"terms-js/index.js",

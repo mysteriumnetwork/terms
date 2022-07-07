@@ -8,30 +8,18 @@ import (
 	"io/ioutil"
 
 	"github.com/magefile/mage/sh"
-
-	"github.com/mysteriumnetwork/terms/terms-go"
 )
 
 const TermsVersionVarName = "TermsVersion"
 
-func GenerateGoVariables() error {
-	docs, err := GetDocumentPaths("../" + terms.DocumentDirectory)
-	if err != nil {
-		return err
-	}
-
-	vars := ""
-	for _, doc := range docs {
-		vars += "\n\t" + FileNameToVariableName(doc.Name()) + ` = MustAsset("` + doc.Name() + `")`
-	}
-
-	vars += "\n\t" + TermsVersionVarName + " = " + `"` + NextVersionUnPrefixed() + `"`
+func GenerateGoVersion() error {
+	vars := "\n\t" + TermsVersionVarName + " = " + `"` + NextVersionUnPrefixed() + `"`
 	str := `package terms
 
 var (` + vars + `
 )`
 
-	err = ioutil.WriteFile("./../terms-go/variables.go", []byte(str), 0644)
+	err := ioutil.WriteFile("./../terms-go/version.go", []byte(str), 0644)
 	if err != nil {
 		return err
 	}
@@ -39,7 +27,7 @@ var (` + vars + `
 	return nil
 }
 
-// GenerateGo embeds terms into `terms-go/terms-bindata.go`
+// GenerateGo embeds terms into `terms-go`
 func GenerateGo() error {
 	return sh.RunV("go", "generate", "./...")
 }

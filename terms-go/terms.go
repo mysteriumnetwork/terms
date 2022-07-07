@@ -4,8 +4,16 @@
 
 package terms
 
+import (
+	"github.com/mysteriumnetwork/terms/documents"
+)
+
 //go:generate go run terms_generate.go
 
-const (
-	DocumentDirectory = "documents"
+var (
+	TermsBountyPilot = documents.TermsBountyPilot
+	TermsEndUser     = documents.TermsEndUser
+	TermsExitNode    = documents.TermsExitNode
+	TermsNodeShort   = documents.TermsNodeShort
+	Warranty         = documents.Warranty
 )

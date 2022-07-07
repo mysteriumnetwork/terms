@@ -10,7 +10,6 @@ require (
 
 require (
 	github.com/emirpasic/gods v1.12.0 // indirect
-	github.com/go-bindata/go-bindata v3.1.2+incompatible // indirect
 	github.com/golang/protobuf v1.3.1 // indirect
 	github.com/google/go-github/v28 v28.1.1 // indirect
 	github.com/google/go-querystring v1.0.0 // indirect
