@@ -29,7 +29,7 @@ func CommitGenerated() error {
 	}
 
 	_, err = git.Commit("Update terms packages [skip ci]",
-		"terms-go/variables.go",
+		"terms-go/version.go",
 		"terms-js/package.json",
 		"terms-js/index.js",
 	)
