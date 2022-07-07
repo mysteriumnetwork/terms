@@ -29,6 +29,10 @@ sourceSets {
     }
 }
 
+java {
+    withSourcesJar()
+}
+
 def mavenToken = System.getenv('MAVEN_TOKEN')
 def nextVersion = System.getenv('NEXT_VERSION').replace('v', '')
 
