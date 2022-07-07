@@ -13,48 +13,28 @@ import (
 	"strings"
 	"time"
 
-	cienv "github.com/mysteriumnetwork/go-ci/env"
-
-	"github.com/mysteriumnetwork/terms/ci/env"
-	"github.com/mysteriumnetwork/terms/terms-go"
+	"github.com/mysteriumnetwork/go-ci/env"
+	"github.com/mysteriumnetwork/terms/ci/buildenv"
+	"github.com/mysteriumnetwork/terms/documents"
 )
 
-type templateVariables map[string]string
+var documentVars = map[string]string{
+	"TermsBountyPilot": generateJsMultiline(documents.TermsBountyPilot),
+	"TermsEndUser":     generateJsMultiline(documents.TermsEndUser),
+	"TermsExitNode":    generateJsMultiline(documents.TermsExitNode),
+	"TermsNodeShort":   generateJsMultiline(documents.TermsNodeShort),
+	"Warranty":         generateJsMultiline(documents.Warranty),
+}
+
 type templateParams struct {
 	BuildVersion string
 	UpdatedAt    string
-	Documents    templateVariables
-}
-
-func mapDocumentsIntoVariables(files []os.FileInfo) (templateVariables, error) {
-	variables := make(templateVariables)
-
-	for _, file := range files {
-		key := FileNameToVariableName(file.Name())
-		data, err := ioutil.ReadFile(filepath.Join(terms.DocumentDirectory, file.Name()))
-		if err != nil {
-			return nil, err
-		}
-
-		variables[key] = generateJsMultiline(string(data))
-	}
-
-	return variables, nil
+	Documents    map[string]string
 }
 
 // GenerateJs embeds terms into `terms-js/index.js`
 func GenerateJs() error {
-	err := cienv.EnsureEnvVars(env.NextVersion)
-	if err != nil {
-		return err
-	}
-
-	documents, err := GetDocumentPaths(terms.DocumentDirectory + "/")
-	if err != nil {
-		return err
-	}
-
-	variables, err := mapDocumentsIntoVariables(documents)
+	err := env.EnsureEnvVars(buildenv.NextVersion)
 	if err != nil {
 		return err
 	}
@@ -62,7 +42,7 @@ func GenerateJs() error {
 	params := &templateParams{
 		BuildVersion: NextVersionUnPrefixed(),
 		UpdatedAt:    time.Now().Format("2006-01-02"),
-		Documents:    variables,
+		Documents:    documentVars,
 	}
 
 	templateFiles, err := ioutil.ReadDir("terms-js/template")

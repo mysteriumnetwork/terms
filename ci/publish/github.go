@@ -7,13 +7,13 @@ package publish
 import (
 	cienv "github.com/mysteriumnetwork/go-ci/env"
 	"github.com/mysteriumnetwork/go-ci/github"
-	"github.com/mysteriumnetwork/terms/ci/env"
+	"github.com/mysteriumnetwork/terms/ci/buildenv"
 	"github.com/pkg/errors"
 )
 
 // PublishGithub publishes next Github release
 func PublishGithub() error {
-	nextVersion := cienv.Str(env.NextVersion)
+	nextVersion := cienv.Str(buildenv.NextVersion)
 
 	releaser, err := github.NewReleaser(cienv.Str(cienv.GithubOwner), cienv.Str(cienv.GithubRepository), cienv.Str(cienv.GithubAPIToken))
 	if err != nil {

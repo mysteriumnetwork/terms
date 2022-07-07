@@ -9,6 +9,7 @@ public class Terms {
     public static final String TERMS_BOUNTY_PILOT = "TERMS_BOUNTY_PILOT.md";
     public static final String TERMS_END_USER = "TERMS_END_USER.md";
     public static final String TERMS_EXIT_NODE = "TERMS_EXIT_NODE.md";
+    public static final String TERMS_NODE_SHORT = "TERMS_NODE_SHORT.md";
     public static final String WARRANTY = "WARRANTY.md";
     public static final String BUILD_PROPERTIES = "build.properties";
 
@@ -33,6 +34,15 @@ public class Terms {
     public static String exitNodeMD() {
         try {
             byte[] bytes = asBytes(TERMS_EXIT_NODE);
+            return new String(bytes);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public static String nodeShortMD() {
+        try {
+            byte[] bytes = asBytes(TERMS_NODE_SHORT);
             return new String(bytes);
         } catch (IOException e) {
             throw new RuntimeException(e);
