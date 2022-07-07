@@ -71,4 +71,4 @@ publish-java:
   script:
     - cd terms-java
     - ./gradlew clean build test
-    - ./gradlew publishMavenJavaPublicationToMavenRepository
+    - ./gradlew -PsigningKey="${GPG_SIGNING_KEY}" -PsigningPassword="" publishMavenJavaPublicationToMavenRepository
