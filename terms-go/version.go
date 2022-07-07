@@ -1,5 +1,5 @@
 package terms
 
 var (
-	TermsVersion = "0.0.46"
+	TermsVersion = "0.0.48"
 )
