@@ -12,6 +12,7 @@ Changes do not need to be committed. CI will generate changes automatically.
 ## Go
 
 Usage:
+
 ```go
 package main
 
@@ -21,9 +22,9 @@ import (
 	"github.com/mysteriumnetwork/terms/terms-go"
 )
 
-func main()  {
-	fmt.Println(string(terms.Warranty))
-	fmt.Println(string(terms.TermsEndUser))
+func main() {
+	fmt.Println(terms.Warranty)
+	fmt.Println(terms.TermsEndUser)
 }
 ```
 
