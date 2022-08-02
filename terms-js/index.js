@@ -161,7 +161,7 @@ module.exports = {
 ' \n' + 
 'We do not encourage, support and contribute to illegal activities and we are resolved to keep the Network operating legally. \n' + 
 ' \n' + 
-'You shall use the Network for any purpose that is unlawful or prohibited by these Terms or any Applicable Law. \n' + 
+'You shall not use the Network for any purpose that is unlawful or prohibited by these Terms or any Applicable Law. \n' + 
 ' \n' + 
 'You shall not request, receive, post, upload, download, display, distribute, transmit or make available through the Network (“Communicate”) any information and material which violates or infringes in any way upon the rights of others, which is unlawful, threatening, abusive, defamatory, invasive of privacy or publicity rights, which encourages conduct that would constitute a criminal offense, give rise to civil liability or otherwise violate the Applicable Law. \n' + 
 ' \n' + 
