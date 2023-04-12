@@ -138,9 +138,11 @@ We may terminate these Terms at any time for any reason whatsoever, including wi
 
 Upon termination we may delete your data which is under our control. 
 
-**14. UPDATES AND UPGRADES**We may, from time to time and at our sole discretion, develop and provide the updates or upgrades of the Network for the purpose of remedying defects and with improved functions. All updates and upgrades are subject to the Terms. By using an update or upgrade, you agree to voluntarily terminate your right to use any previous version of the Network, except to the extent that the previous version is required to transition to the update or upgrade. If an update or upgrade is provided, you shall take prompt action to install such update or upgrade. If you fail to do so, you acknowledge that the Network may not work correctly or that you will not be able to use all available Network features.
+14\. UPDATES AND UPGRADES
 
-14\. MISCELLANEOUS
+We may, from time to time and at our sole discretion, develop and provide the updates or upgrades of the Network for the purpose of remedying defects and with improved functions. All updates and upgrades are subject to the Terms. By using an update or upgrade, you agree to voluntarily terminate your right to use any previous version of the Network, except to the extent that the previous version is required to transition to the update or upgrade. If an update or upgrade is provided, you shall take prompt action to install such update or upgrade. If you fail to do so, you acknowledge that the Network may not work correctly or that you will not be able to use all available Network features.
+
+15\. MISCELLANEOUS
 
 You agree to comply with all applicable export laws and restrictions and regulations and agree that you will not export, or allow the export or re-export of the Network or any part of it in violation of the Applicable Law.
 
@@ -184,5 +186,5 @@ D. CONTACT US
 
 If you have any questions about this Privacy Policy, please contact us by email: support@netsys.technology
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NjA3MjE4OV19
+eyJoaXN0b3J5IjpbLTE1NzkwNjcwMTBdfQ==
 -->
