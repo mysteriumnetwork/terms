@@ -27,7 +27,7 @@
 
 1\. ACCEPTANCE OF TERMS
 
-These terms and conditions (the “Terms”) are a binding legal agreement between you and NetSys Inc. (“Mysterium Networks” or “we”) that governs your use of the Mysterium network (the “Network”).
+These terms and conditions (the “Terms”) are a binding legal agreement between you and NetSys Inc. (“Mysterium Network” or “we”) that governs your use of the Mysterium network (the “Network”).
 
 Your use of the Network is subject to these Terms. By using the Network you are fully accepting the terms, conditions and disclaimers contained in this document and all policies and guidelines that are incorporated by reference. If you do not accept these terms and conditions you must immediately stop using the Network. You shall not use the Network in contradiction with these Terms or any applicable law or regulation of the country or territory you originate from or reside in or any applicable jurisdiction (the “Applicable Law”). For the purposes of these Terms, the term “using the Network” means accessing, connecting to or utilizing the Network in any other way.
 
