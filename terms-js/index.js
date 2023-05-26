@@ -312,7 +312,7 @@ module.exports = {
 ' \n' + 
 '4\\. COMPENSATION \n' + 
 ' \n' + 
-'You may get compensation for being a Node in the Network from us under the following conditions https://mystnodes.com/payout-rules. \n' + 
+'You may get compensation for being a Node in the Network from us under the following conditions [https://mystnodes.com/earnings](https://mystnodes.com/earnings). \n' + 
 ' \n' + 
 '5\\. EQUIPMENT \n' + 
 ' \n' + 
