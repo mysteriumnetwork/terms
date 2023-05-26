@@ -46,7 +46,7 @@ By using the Network, you agree to act as a Node operator and become a part of t
 
 4\. COMPENSATION
 
-You may get compensation for being a Node in the Network from us under the following conditions https://mystnodes.com/payout-rules.
+You may get compensation for being a Node in the Network from us under the following conditions [https://mystnodes.com/earnings](https://mystnodes.com/earnings).
 
 5\. EQUIPMENT
 
