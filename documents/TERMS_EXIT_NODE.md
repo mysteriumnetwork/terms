@@ -128,8 +128,6 @@ You may ask for a refund in case registration failed and you could not get your 
 
 Request for a refund shall be sent to the following email support@netsys.technology.
 
-Credit card payments are processed through our payment services provider and payment processing partner and collected by our payment agent BlockDev AG, whose registered office is at Alpenstrasse 14, 6300 Zug, Switzerland.
-
 13\. TERMINATION
 
 You may terminate the Terms at any time by ceasing your use of the Network and closing your account with us.
@@ -186,5 +184,5 @@ D. CONTACT US
 
 If you have any questions about this Privacy Policy, please contact us by email: support@netsys.technology
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzkwNjcwMTBdfQ==
+eyJoaXN0b3J5IjpbMTM0MjgwNDUwLC0xNTc5MDY3MDEwXX0=
 -->
