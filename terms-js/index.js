@@ -394,8 +394,6 @@ module.exports = {
 ' \n' + 
 'Request for a refund shall be sent to the following email support@netsys.technology. \n' + 
 ' \n' + 
-'Credit card payments are processed through our payment services provider and payment processing partner and collected by our payment agent BlockDev AG, whose registered office is at Alpenstrasse 14, 6300 Zug, Switzerland. \n' + 
-' \n' + 
 '13\\. TERMINATION \n' + 
 ' \n' + 
 'You may terminate the Terms at any time by ceasing your use of the Network and closing your account with us. \n' + 
@@ -452,7 +450,7 @@ module.exports = {
 ' \n' + 
 'If you have any questions about this Privacy Policy, please contact us by email: support@netsys.technology \n' + 
 '\u003C!--stackedit_data: \n' + 
-'eyJoaXN0b3J5IjpbLTE1NzkwNjcwMTBdfQ\u003D\u003D \n' + 
+'eyJoaXN0b3J5IjpbMTM0MjgwNDUwLC0xNTc5MDY3MDEwXX0\u003D \n' + 
 '--\u003E \n',
 
     TermsNodeShort: ' \n' + 
