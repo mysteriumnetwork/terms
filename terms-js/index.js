@@ -406,7 +406,12 @@ module.exports = {
 ' \n' + 
 'We may, from time to time and at our sole discretion, develop and provide the updates or upgrades of the Network for the purpose of remedying defects and with improved functions. All updates and upgrades are subject to the Terms. By using an update or upgrade, you agree to voluntarily terminate your right to use any previous version of the Network, except to the extent that the previous version is required to transition to the update or upgrade. If an update or upgrade is provided, you shall take prompt action to install such update or upgrade. If you fail to do so, you acknowledge that the Network may not work correctly or that you will not be able to use all available Network features. \n' + 
 ' \n' + 
-'15\\. MISCELLANEOUS \n' + 
+'15\\. REFERAL PROGRAM   \n' + 
+'Referring third parties to become Network exit node may result rewards for you. By participating in the Referral Program (“Program”) you acknowledge your acceptance of these terms and your commitment to adhering to the prescribed Program Terms. The Program terms, qualifying criteria and reward structures, are expressly detailed in the FAQ section and blog posts. Please be advised that rewards are contingent upon verification, and we explicitly retain the authority to revoke your rewards in the event of any fraudulent activity on your part, as delineated below, or a violation of the Program terms.   \n' + 
+'Any attempt by you to manipulate the Program or engage in fraudulent activities, including, but not limited to, the creation of multiple accounts or the submission of fictitious referrals, will lead to your immediate disqualification and termination. We expressly reserve the right to block your account, withhold your rewards, and pursue legal remedies in response to your dishonest behavior.   \n' + 
+'Furthermore, we retain the unilateral right to modify, suspend, or terminate the Program at our discretion and without prior notice. \n' + 
+' \n' + 
+'16\\. MISCELLANEOUS \n' + 
 ' \n' + 
 'You agree to comply with all applicable export laws and restrictions and regulations and agree that you will not export, or allow the export or re-export of the Network or any part of it in violation of the Applicable Law. \n' + 
 ' \n' + 
@@ -450,7 +455,8 @@ module.exports = {
 ' \n' + 
 'If you have any questions about this Privacy Policy, please contact us by email: support@netsys.technology \n' + 
 '\u003C!--stackedit_data: \n' + 
-'eyJoaXN0b3J5IjpbMTM0MjgwNDUwLC0xNTc5MDY3MDEwXX0\u003D \n' + 
+'eyJoaXN0b3J5IjpbLTQ2Nzk5OTUyNiwxMzQyODA0NTAsLTE1Nz \n' + 
+'kwNjcwMTBdfQ\u003D\u003D \n' + 
 '--\u003E \n',
 
     TermsNodeShort: ' \n' + 
